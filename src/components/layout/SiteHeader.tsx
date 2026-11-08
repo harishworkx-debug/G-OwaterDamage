@@ -45,7 +45,12 @@ export default function SiteHeader() {
             items={serviceItems}
             overview={{ label: 'All water damage services', to: '/services' }}
           />
-          <NavDropdown label="Service Areas" items={areaItems} overview={{ label: 'All service areas', to: '/service-areas' }} />
+          <NavDropdown
+            label="Service Areas"
+            items={areaItems}
+            columns={2}
+            overview={{ label: 'All service areas', to: '/service-areas' }}
+          />
           <NavLink to="/about" className={navLinkClass}>
             About Us
           </NavLink>

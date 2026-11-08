@@ -11,9 +11,10 @@ interface NavDropdownProps {
   label: string;
   items: NavItem[];
   overview?: NavItem;
+  columns?: 1 | 2;
 }
 
-export default function NavDropdown({ label, items, overview }: NavDropdownProps) {
+export default function NavDropdown({ label, items, overview, columns = 1 }: NavDropdownProps) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -48,14 +49,18 @@ export default function NavDropdown({ label, items, overview }: NavDropdownProps
           open ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-1 opacity-0'
         }`}
       >
-        <div className="flex max-h-[calc(100vh-6rem)] w-72 flex-col rounded-2xl border border-navy-100 bg-white p-2 shadow-2xl shadow-navy-950/20">
-          <div className="overflow-y-auto pr-1">
+        <div
+          className={`flex max-h-[calc(100vh-6rem)] flex-col rounded-2xl border border-navy-100 bg-white p-2.5 shadow-2xl shadow-navy-950/20 ${
+            columns === 2 ? 'w-[28rem]' : 'w-72'
+          }`}
+        >
+          <div className={`overflow-y-auto ${columns === 2 ? 'grid grid-cols-2 gap-1 pr-1' : 'space-y-0.5 pr-1'}`}>
             {items.map((item) => (
               <Link
                 key={item.to}
                 to={item.to}
                 onClick={() => setOpen(false)}
-                className="block rounded-xl px-4 py-2.5 text-sm font-semibold text-navy-900 transition hover:bg-ocean-50 hover:text-ocean-700"
+                className="block rounded-xl px-3.5 py-2 text-sm font-semibold text-navy-900 transition hover:bg-ocean-50 hover:text-ocean-700"
               >
                 {item.label}
               </Link>
@@ -65,9 +70,9 @@ export default function NavDropdown({ label, items, overview }: NavDropdownProps
             <Link
               to={overview.to}
               onClick={() => setOpen(false)}
-              className="mt-1 block shrink-0 rounded-xl border-t border-navy-100 px-4 py-3 text-sm font-extrabold text-ocean-700 transition hover:bg-ocean-50"
+              className="mt-2 block shrink-0 rounded-xl border-t border-navy-100 px-4 pt-3 pb-1.5 text-center text-sm font-extrabold text-ocean-700 transition hover:bg-ocean-50"
             >
-              {overview.label}
+              {overview.label} &rarr;
             </Link>
           )}
         </div>
