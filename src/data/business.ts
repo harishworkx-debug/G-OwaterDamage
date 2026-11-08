@@ -9,6 +9,6 @@ export const business = {
   postalCode: '07206',
   addressLine: '505 Elizabeth Ave, Elizabethport, NJ 07206, United States',
   mapsUrl: 'https://maps.app.goo.gl/g26jp91vzA3Wb8zQ7',
-  siteUrl: 'https://gowaterdamage.org',
+  siteUrl: 'https://www.gowaterdamage.org',
   serviceCity: 'Elizabeth, NJ',
 } as const;

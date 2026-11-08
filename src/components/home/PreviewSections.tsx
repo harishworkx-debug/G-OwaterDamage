@@ -1,6 +1,7 @@
-import { ArrowRight, ExternalLink, MapPin } from 'lucide-react';
+import { ArrowRight, ExternalLink, MapPin, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { business } from '@/data/business';
+import { customerReviews, reviewsSummary } from '@/data/reviews';
 import { serviceLocationPages } from '@/data/serviceLocationPages';
 import { services } from '@/data/services';
 import SectionHeading from '@/components/ui/SectionHeading';
@@ -8,27 +9,84 @@ import SectionHeading from '@/components/ui/SectionHeading';
 export function ReviewsPreview() {
   return (
     <section className="bg-navy-900 py-20 text-white md:py-24">
-      <div className="container-page grid gap-10 md:grid-cols-[1.2fr_1fr] md:items-center">
-        <SectionHeading
-          tone="dark"
-          eyebrow="Customer Reviews"
-          title="Read what customers say on Google"
-          description="Reviews for G&OwaterDamage are published on our Google Maps listing. Read them there before you call."
-        />
-        <div className="flex flex-col gap-4 rounded-3xl border border-white/10 bg-white/5 p-8">
-          <a
-            href={business.mapsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3.5 font-extrabold text-navy-900 transition duration-300 hover:-translate-y-0.5 hover:bg-navy-50"
-          >
-            View reviews on Google
-            <ExternalLink className="h-4 w-4" aria-hidden="true" />
-          </a>
-          <Link to="/reviews" className="inline-flex items-center justify-center gap-2 text-sm font-bold text-cyan-200 transition hover:text-white">
-            More about reviews
-            <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </Link>
+      <div className="container-page space-y-12">
+        <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          <div className="space-y-3">
+            <div className="flex items-center gap-2">
+              <div className="flex">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-amber-400 text-amber-400" aria-hidden="true" />
+                ))}
+              </div>
+              <span className="text-lg font-extrabold text-white">{reviewsSummary.rating.toFixed(1)}</span>
+              <span className="text-sm font-semibold text-cyan-200">
+                ({reviewsSummary.totalReviews} Google Reviews)
+              </span>
+            </div>
+            <h2 className="text-3xl font-extrabold md:text-4xl">What our customers say</h2>
+            <p className="max-w-xl text-navy-200">
+              Read real feedback from property owners who called G&amp;OwaterDamage for water damage restoration and flooding cleanup.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <a
+              href={business.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-extrabold text-navy-950 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-200"
+            >
+              Write a review
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
+            <Link
+              to="/reviews"
+              className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-3 text-sm font-bold text-white transition hover:bg-white/10"
+            >
+              View all reviews
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-3">
+          {customerReviews.map((review) => {
+            const initial = review.author.charAt(0);
+            return (
+              <div
+                key={review.id}
+                className="flex flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm transition duration-300 hover:border-cyan-300/40 hover:bg-white/[0.08]"
+              >
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-full bg-cyan-400 text-base font-extrabold text-navy-950">
+                        {initial}
+                      </div>
+                      <div>
+                        <p className="font-extrabold text-white">{review.author}</p>
+                        <p className="text-xs text-navy-300">
+                          {review.reviewCount} &bull; {review.timeAgo}
+                        </p>
+                      </div>
+                    </div>
+                    <span className="rounded-full bg-white/10 px-2.5 py-0.5 text-[11px] font-bold text-cyan-200">
+                      Google
+                    </span>
+                  </div>
+
+                  <div className="flex gap-1">
+                    {[...Array(review.rating)].map((_, i) => (
+                      <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" aria-hidden="true" />
+                    ))}
+                  </div>
+
+                  <p className="text-sm leading-relaxed text-navy-100">
+                    &ldquo;{review.text}&rdquo;
+                  </p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

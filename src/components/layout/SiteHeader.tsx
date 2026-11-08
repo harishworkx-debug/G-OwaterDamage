@@ -3,12 +3,13 @@ import { Menu, X } from 'lucide-react';
 import { Link, NavLink } from 'react-router-dom';
 import { business } from '@/data/business';
 import { services } from '@/data/services';
+import { serviceAreas } from '@/data/serviceAreas';
 import Logo from '@/components/layout/Logo';
 import NavDropdown from '@/components/layout/NavDropdown';
 import CallButton from '@/components/ui/CallButton';
 
 const serviceItems = services.map((service) => ({ label: service.name, to: service.path }));
-const areaItems = [{ label: 'Elizabeth, NJ', to: '/service-areas#elizabeth-nj' }];
+const areaItems = serviceAreas.map((area) => ({ label: area.name, to: area.path }));
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   `rounded-full px-4 py-2 text-sm font-semibold transition hover:bg-white/10 hover:text-white ${
@@ -73,19 +74,27 @@ export default function SiteHeader() {
 
       <div
         id="mobile-menu"
-        className={`border-t border-white/10 bg-navy-900 lg:hidden ${menuOpen ? 'block' : 'hidden'}`}
+        className={`max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-white/10 bg-navy-900 lg:hidden ${
+          menuOpen ? 'block' : 'hidden'
+        }`}
       >
         <nav aria-label="Mobile" className="container-page flex flex-col gap-1 py-4">
           <MobileLink to="/" onNavigate={() => setMenuOpen(false)}>
             Home
           </MobileLink>
           <p className="px-4 pt-3 text-xs font-bold uppercase tracking-[0.18em] text-cyan-200">Services</p>
+          <MobileLink to="/services" onNavigate={() => setMenuOpen(false)}>
+            All Services
+          </MobileLink>
           {serviceItems.map((item) => (
             <MobileLink key={item.to} to={item.to} onNavigate={() => setMenuOpen(false)}>
               {item.label}
             </MobileLink>
           ))}
           <p className="px-4 pt-3 text-xs font-bold uppercase tracking-[0.18em] text-cyan-200">Service Areas</p>
+          <MobileLink to="/service-areas" onNavigate={() => setMenuOpen(false)}>
+            All Service Areas
+          </MobileLink>
           {areaItems.map((item) => (
             <MobileLink key={item.to} to={item.to} onNavigate={() => setMenuOpen(false)}>
               {item.label}
