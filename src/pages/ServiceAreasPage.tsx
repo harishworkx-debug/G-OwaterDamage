@@ -4,6 +4,7 @@ import { useSeo } from '@/hooks/useSeo';
 import { serviceAreas } from '@/data/serviceAreas';
 import { serviceLocationPages } from '@/data/serviceLocationPages';
 import { services } from '@/data/services';
+import { breadcrumbListSchema } from '@/lib/schema';
 import PageHeader from '@/components/layout/PageHeader';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import FaqList from '@/components/ui/FaqList';
@@ -32,23 +33,26 @@ const areaFaqs = [
 ];
 
 export default function ServiceAreasPage() {
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Service Areas' }];
+
   useSeo({
-    title: 'Service Areas in Elizabeth and Nearby New Jersey Towns | G&OwaterDamage',
+    title: 'Water Damage Restoration Service Areas in NJ',
     description:
-      'G&OwaterDamage serves Elizabeth, Elizabethport, and nearby New Jersey towns with water damage restoration. Coverage is confirmed by phone at 908-677-5006.',
+      'Explore G&OwaterDamage water damage restoration service areas. We provide water restoration near Elizabeth, NJ and nearby water damage services—call 908-677-5006 to confirm coverage.',
     path: '/service-areas',
+    schemaNodes: [breadcrumbListSchema(breadcrumbs, '/service-areas')],
   });
 
   return (
     <>
       <PageHeader
         eyebrow="Service Areas"
-        title="Water Damage Service Areas"
-        description="G&OwaterDamage is based in Elizabethport and serves Elizabeth, NJ. Call to confirm availability for your property."
+        title="Water Damage Restoration Areas We Serve"
+        description="Based in Elizabethport, G&OwaterDamage provides water restoration near Elizabeth, NJ and nearby water damage services across surrounding communities. Call to confirm availability for your property."
       >
         <CallButton />
       </PageHeader>
-      <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'Service Areas' }]} />
+      <Breadcrumbs items={breadcrumbs} />
 
       <section id="elizabeth-nj" className="scroll-mt-28 py-20 md:py-28">
         <div className="container-page grid gap-14 lg:grid-cols-[1fr_1fr]">

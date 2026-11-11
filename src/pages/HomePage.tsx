@@ -1,4 +1,5 @@
 import { useSeo } from '@/hooks/useSeo';
+import { organizationSchema, websiteSchema } from '@/lib/schema';
 import HeroSection from '@/components/home/HeroSection';
 import TrustBar from '@/components/home/TrustBar';
 import ServicesSection from '@/components/home/ServicesSection';
@@ -12,10 +13,11 @@ import FinalCta from '@/components/ui/FinalCta';
 
 export default function HomePage() {
   useSeo({
-    title: 'Water Damage Restoration in Elizabeth, NJ | G&OwaterDamage',
+    title: 'Water Damage Restoration Elizabeth NJ | G&OwaterDamage',
     description:
-      'Water damage restoration in Elizabeth and Elizabethport, NJ. Call G&OwaterDamage at 908-677-5006 to discuss flooding, leaks, and property restoration.',
+      'Trusted water damage company in Elizabeth, NJ. Call G&OwaterDamage at 908-677-5006 for emergency water damage restoration, flooding cleanup, and drying in Elizabeth & Elizabethport.',
     path: '/',
+    schemaNodes: [websiteSchema(), organizationSchema()],
   });
 
   return (

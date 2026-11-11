@@ -57,6 +57,9 @@ export default function SiteHeader() {
           <NavLink to="/reviews" className={navLinkClass}>
             Reviews
           </NavLink>
+          <NavLink to="/blog" className={navLinkClass}>
+            Blog
+          </NavLink>
           <NavLink to="/contact" className={navLinkClass}>
             Contact
           </NavLink>
@@ -110,6 +113,9 @@ export default function SiteHeader() {
           </MobileLink>
           <MobileLink to="/reviews" onNavigate={() => setMenuOpen(false)}>
             Reviews
+          </MobileLink>
+          <MobileLink to="/blog" onNavigate={() => setMenuOpen(false)}>
+            Blog
           </MobileLink>
           <MobileLink to="/contact" onNavigate={() => setMenuOpen(false)}>
             Contact

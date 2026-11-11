@@ -1,29 +1,33 @@
 import { ExternalLink, MapPin, Phone } from 'lucide-react';
 import { useSeo } from '@/hooks/useSeo';
 import { business } from '@/data/business';
+import { breadcrumbListSchema, localBusinessSchema } from '@/lib/schema';
 import PageHeader from '@/components/layout/PageHeader';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import CallButton from '@/components/ui/CallButton';
 import FinalCta from '@/components/ui/FinalCta';
 
 export default function ContactPage() {
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Contact' }];
+
   useSeo({
-    title: 'Contact G&OwaterDamage by Phone | Elizabethport, NJ',
+    title: 'Contact Water Damage Restoration Elizabeth NJ',
     description:
-      'Call G&OwaterDamage at 908-677-5006 for water damage, leak, and flooding help in Elizabeth, NJ. Address: 505 Elizabeth Ave, Elizabethport, NJ 07206.',
+      'Contact G&OwaterDamage for water damage restoration in Elizabeth, NJ. Call 908-677-5006 for emergency water damage help or to request water damage service at 505 Elizabeth Ave.',
     path: '/contact',
+    schemaNodes: [localBusinessSchema(), breadcrumbListSchema(breadcrumbs, '/contact')],
   });
 
   return (
     <>
       <PageHeader
         eyebrow="Contact Information"
-        title="Contact G&OwaterDamage by phone"
-        description="Phone is the way to reach G&OwaterDamage. Call to discuss water damage, leaks, or flooding and to check service availability for your property."
+        title="Contact Our Water Damage Restoration Team"
+        description="Need emergency water damage help or ready to request water damage service? Call G&OwaterDamage at 908-677-5006 to discuss leaks, flooding, and coverage for your property."
       >
         <CallButton />
       </PageHeader>
-      <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'Contact' }]} />
+      <Breadcrumbs items={breadcrumbs} />
 
       <section className="py-20 md:py-28">
         <div className="container-page grid gap-6 md:grid-cols-2">

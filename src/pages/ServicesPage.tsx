@@ -1,5 +1,6 @@
 import { useSeo } from '@/hooks/useSeo';
 import { services } from '@/data/services';
+import { breadcrumbListSchema } from '@/lib/schema';
 import PageHeader from '@/components/layout/PageHeader';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import ServiceCard from '@/components/ui/ServiceCard';
@@ -8,23 +9,26 @@ import FinalCta from '@/components/ui/FinalCta';
 import { business } from '@/data/business';
 
 export default function ServicesPage() {
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Services' }];
+
   useSeo({
-    title: 'Water Damage Restoration Services in Elizabeth, NJ | G&OwaterDamage',
+    title: 'Water Damage Restoration Services | G&OwaterDamage',
     description:
-      'Water extraction, structural drying, and water damage restoration in Elizabeth and Elizabethport, NJ. Call 908-677-5006 to talk through your property.',
+      'Explore water damage restoration services from G&OwaterDamage, including water removal services, flood cleanup, and structural drying. Call 908-677-5006 to talk through your property.',
     path: '/services',
+    schemaNodes: [breadcrumbListSchema(breadcrumbs, '/services')],
   });
 
   return (
     <>
       <PageHeader
         eyebrow="Services"
-        title="Water Damage Restoration Services"
-        description="Explore the water damage services G&OwaterDamage offers in Elizabeth and Elizabethport, NJ. Each service has its own page with details on causes, considerations, and the work involved."
+        title="Professional Water Damage Restoration Services"
+        description="Explore our full range of water removal services, flood cleanup, and structural drying solutions. Each page below explains common causes, safety steps, and what the restoration work involves."
       >
         <CallButton />
       </PageHeader>
-      <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'Services' }]} />
+      <Breadcrumbs items={breadcrumbs} />
 
       <section className="py-20 md:py-28">
         <div className="container-page grid gap-8 md:grid-cols-2 lg:grid-cols-3">

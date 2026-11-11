@@ -1,158 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Core Website Pages -->
+  <!-- Core Canonical Pages -->
   <url>
     <loc>https://www.gowaterdamage.org/</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/services</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/service-areas</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/about</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/reviews</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/contact</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
 
-  <!-- Local Service Pages (Elizabeth, NJ) -->
+  <!-- Elizabeth, NJ Service Pages (Distinct Search Intents) -->
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-extraction-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/structural-drying-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/flood-damage-cleanup-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/basement-water-cleanup-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-inspection-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/burst-pipe-water-damage-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/sewage-cleanup-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/storm-damage-restoration-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/commercial-water-damage-restoration-elizabeth-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
 
-  <!-- Service Area / Town Pages -->
+  <!-- Nearby Community & Neighborhood Location Pages -->
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-elizabethport-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-linden-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-roselle-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-roselle-park-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-hillside-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-union-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-rahway-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-cranford-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://www.gowaterdamage.org/water-damage-restoration-newark-nj</loc>
-    <lastmod>2026-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+
+  <!-- Blog & Water Damage Guides -->
+  <url>
+    <loc>https://www.gowaterdamage.org/blog</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.gowaterdamage.org/blog/what-to-do-after-water-damage</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.gowaterdamage.org/blog/signs-of-hidden-water-damage-behind-walls</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.gowaterdamage.org/blog/water-extraction-vs-structural-drying</loc>
+    <lastmod>2026-11-11</lastmod>
   </url>
 </urlset>

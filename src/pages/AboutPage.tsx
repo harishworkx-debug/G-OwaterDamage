@@ -1,5 +1,6 @@
 import { useSeo } from '@/hooks/useSeo';
 import { business } from '@/data/business';
+import { breadcrumbListSchema, organizationSchema } from '@/lib/schema';
 import PageHeader from '@/components/layout/PageHeader';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import CallButton from '@/components/ui/CallButton';
@@ -25,30 +26,33 @@ const principles = [
 ];
 
 export default function AboutPage() {
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'About Us' }];
+
   useSeo({
-    title: 'About G&OwaterDamage | Elizabethport, NJ',
+    title: 'About Our Water Damage Restoration Team',
     description:
-      'Learn about G&OwaterDamage, a water damage restoration service at 505 Elizabeth Ave in Elizabethport, NJ. Call 908-677-5006.',
+      'Learn about G&OwaterDamage, a water damage restoration company in Elizabeth, NJ at 505 Elizabeth Ave in Elizabethport. Call our local restoration team at 908-677-5006.',
     path: '/about',
+    schemaNodes: [organizationSchema(), breadcrumbListSchema(breadcrumbs, '/about')],
   });
 
   return (
     <>
       <PageHeader
         eyebrow="About Us"
-        title="A water damage restoration service rooted in Elizabethport"
-        description="G&OwaterDamage helps homes and businesses in Elizabeth respond to water damage, flooding, and leaks with direct phone contact and clear, practical guidance."
+        title="About G&OwaterDamage"
+        description="G&OwaterDamage is a professional restoration company based in Elizabethport. Our local restoration team helps homes and businesses respond to flooding and leaks with direct phone contact and clear, practical guidance."
       >
         <CallButton />
       </PageHeader>
-      <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'About Us' }]} />
+      <Breadcrumbs items={breadcrumbs} />
 
       <section className="py-20 md:py-28">
         <div className="container-page grid gap-14 lg:grid-cols-[1fr_1fr]">
           <SectionHeading
             eyebrow="Who We Are"
-            title="Water damage restoration for Elizabeth properties"
-            description="G&OwaterDamage is a water damage restoration service located at 505 Elizabeth Ave, Elizabethport, NJ 07206. We work on residential and commercial properties affected by flooding, burst pipes, leaks, and storm water."
+            title="A local restoration team serving Elizabeth properties"
+            description="G&OwaterDamage is a professional restoration company located at 505 Elizabeth Ave, Elizabethport, NJ 07206. We work on residential and commercial properties affected by flooding, burst pipes, leaks, and storm water."
           />
           <div className="space-y-6 leading-[1.5] text-navy-600">
             <p>

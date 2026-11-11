@@ -3,6 +3,7 @@ import { ExternalLink, Star, ThumbsUp, Share2, CheckCircle2, MessageSquarePlus }
 import { useSeo } from '@/hooks/useSeo';
 import { business } from '@/data/business';
 import { customerReviews, reviewsSummary } from '@/data/reviews';
+import { breadcrumbListSchema } from '@/lib/schema';
 import PageHeader from '@/components/layout/PageHeader';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import CallButton from '@/components/ui/CallButton';
@@ -10,11 +11,14 @@ import FinalCta from '@/components/ui/FinalCta';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 export default function ReviewsPage() {
+  const breadcrumbs = [{ label: 'Home', to: '/' }, { label: 'Reviews' }];
+
   useSeo({
-    title: 'Customer Reviews (5.0 Stars) | G&OwaterDamage, Elizabethport NJ',
+    title: 'Water Damage Restoration Reviews | G&OwaterDamage',
     description:
-      'Read customer reviews for G&OwaterDamage on Google. 5.0 out of 5 stars based on 3 reviews from property owners in Elizabeth, NJ.',
+      'Read verified water damage restoration reviews for G&OwaterDamage. Explore water restoration customer reviews and restoration company reviews rated 5.0 stars on Google.',
     path: '/reviews',
+    schemaNodes: [breadcrumbListSchema(breadcrumbs, '/reviews')],
   });
 
   const [likedReviews, setLikedReviews] = useState<Record<string, boolean>>({});
@@ -42,12 +46,12 @@ export default function ReviewsPage() {
     <>
       <PageHeader
         eyebrow="Reviews"
-        title="Customer reviews for G&OwaterDamage"
-        description="Real reviews from verified property owners on Google. Rated 5.0 out of 5 stars based on customer feedback."
+        title="Customer Reviews and Restoration Experiences"
+        description="Read verified water restoration customer reviews and restoration company reviews on Google. Rated 5.0 out of 5 stars based on direct client feedback."
       >
         <CallButton />
       </PageHeader>
-      <Breadcrumbs items={[{ label: 'Home', to: '/' }, { label: 'Reviews' }]} />
+      <Breadcrumbs items={breadcrumbs} />
 
       <section className="py-20 md:py-28">
         <div className="container-page space-y-14">

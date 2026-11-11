@@ -9,6 +9,7 @@ const companyLinks = [
   { label: 'Service Areas', to: '/service-areas' },
   { label: 'About Us', to: '/about' },
   { label: 'Reviews', to: '/reviews' },
+  { label: 'Blog & Guides', to: '/blog' },
   { label: 'Contact Information', to: '/contact' },
 ];
 

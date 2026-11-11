@@ -5,6 +5,7 @@ interface SeoOptions {
   title: string;
   description: string;
   path: string;
+  schemaNodes?: Record<string, unknown>[];
 }
 
 function upsertMeta(attribute: 'name' | 'property', key: string, content: string) {
@@ -27,7 +28,27 @@ function upsertCanonical(href: string) {
   element.setAttribute('href', href);
 }
 
-export function useSeo({ title, description, path }: SeoOptions) {
+function upsertStructuredData(payload: string) {
+  let element = document.head.querySelector<HTMLScriptElement>('#structured-data');
+  if (!payload) {
+    if (element) element.remove();
+    return;
+  }
+  if (!element) {
+    element = document.createElement('script');
+    element.id = 'structured-data';
+    element.type = 'application/ld+json';
+    document.head.appendChild(element);
+  }
+  element.textContent = payload;
+}
+
+export function useSeo({ title, description, path, schemaNodes }: SeoOptions) {
+  const schemaPayload =
+    schemaNodes && schemaNodes.length > 0
+      ? JSON.stringify({ '@context': 'https://schema.org', '@graph': schemaNodes })
+      : '';
+
   useEffect(() => {
     const url = `${business.siteUrl}${path}`;
     document.title = title;
@@ -36,5 +57,11 @@ export function useSeo({ title, description, path }: SeoOptions) {
     upsertMeta('property', 'og:description', description);
     upsertMeta('property', 'og:url', url);
     upsertCanonical(url);
-  }, [title, description, path]);
+    upsertStructuredData(schemaPayload);
+
+    const robotsMeta = document.head.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    if (robotsMeta) {
+      robotsMeta.remove();
+    }
+  }, [title, description, path, schemaPayload]);
 }

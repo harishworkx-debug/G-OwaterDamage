@@ -27,7 +27,7 @@ export default function HeroSection() {
             Water Damage Restoration in Elizabeth, NJ
           </h1>
           <p className="max-w-xl text-lg leading-[1.5] text-navy-100 animate-fade-up [animation-delay:240ms]">
-            Dealing with water damage, leaks, or flooding? Call G&amp;OwaterDamage to discuss your property restoration needs and check service availability.
+            Looking for a dependable water damage company in Elizabeth, NJ? Call G&amp;OwaterDamage for emergency water damage restoration, standing water removal, and structural drying when leaks or flooding hit.
           </p>
           <div className="flex flex-col gap-4 pt-2 sm:flex-row animate-fade-up [animation-delay:360ms]">
             <CallButton className="animate-pulse-ring" />

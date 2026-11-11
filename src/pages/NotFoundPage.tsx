@@ -7,6 +7,24 @@ import FinalCta from '@/components/ui/FinalCta';
 export default function NotFoundPage() {
   useEffect(() => {
     document.title = 'Page Not Found | G&OwaterDamage';
+
+    let robotsMeta = document.head.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    if (!robotsMeta) {
+      robotsMeta = document.createElement('meta');
+      robotsMeta.setAttribute('name', 'robots');
+      document.head.appendChild(robotsMeta);
+    }
+    robotsMeta.setAttribute('content', 'noindex, nofollow');
+
+    const canonicalLink = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.remove();
+    }
+
+    const structuredData = document.head.querySelector<HTMLScriptElement>('#structured-data');
+    if (structuredData) {
+      structuredData.remove();
+    }
   }, []);
 
   return (
