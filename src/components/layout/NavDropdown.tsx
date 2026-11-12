@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export interface NavItem {
   label: string;
   to: string;
-}
+}   //hohoho
 
 interface NavDropdownProps {
   label: string;
@@ -45,14 +45,12 @@ export default function NavDropdown({ label, items, overview, columns = 1 }: Nav
         <ChevronDown className={`h-4 w-4 transition duration-300 ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
       </button>
       <div
-        className={`absolute left-0 top-full z-50 pt-3 transition duration-200 ${
-          open ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-1 opacity-0'
-        }`}
+        className={`absolute left-0 top-full z-50 pt-3 transition duration-200 ${open ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-1 opacity-0'
+          }`}
       >
         <div
-          className={`flex max-h-[calc(100vh-6rem)] flex-col rounded-2xl border border-navy-100 bg-white p-2.5 shadow-2xl shadow-navy-950/20 ${
-            columns === 2 ? 'w-[28rem]' : 'w-72'
-          }`}
+          className={`flex max-h-[calc(100vh-6rem)] flex-col rounded-2xl border border-navy-100 bg-white p-2.5 shadow-2xl shadow-navy-950/20 ${columns === 2 ? 'w-[28rem]' : 'w-72'
+            }`}
         >
           <div className={`overflow-y-auto ${columns === 2 ? 'grid grid-cols-2 gap-1 pr-1' : 'space-y-0.5 pr-1'}`}>
             {items.map((item) => (
