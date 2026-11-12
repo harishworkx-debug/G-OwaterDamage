@@ -156,6 +156,16 @@ function BlogPostContent({ post }: { post: BlogPost }) {
                 Talk directly with {business.name} at {business.addressLine}. Describe where the water started and we will review next steps cleanly by phone.
               </p>
               <CallButton className="w-full" />
+              <div className="flex flex-col gap-2 border-t border-white/10 pt-4 text-sm font-bold text-cyan-200">
+                <Link to="/contact" className="inline-flex items-center gap-1.5 transition hover:text-white hover:underline">
+                  Contact details &amp; Elizabethport map
+                  <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+                </Link>
+                <Link to="/services" className="inline-flex items-center gap-1.5 transition hover:text-white hover:underline">
+                  All water damage restoration services
+                  <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+                </Link>
+              </div>
             </div>
 
             {relatedServices.length > 0 && (

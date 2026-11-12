@@ -1,9 +1,57 @@
 {
-  "rewrites": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/water-damage-restoration",
+      "destination": "/water-damage-restoration-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/water-extraction",
+      "destination": "/water-extraction-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/flood-damage-cleanup",
+      "destination": "/flood-damage-cleanup-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/basement-water-cleanup",
+      "destination": "/basement-water-cleanup-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/structural-drying",
+      "destination": "/structural-drying-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/water-damage-inspection",
+      "destination": "/water-damage-inspection-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/burst-pipe-water-damage",
+      "destination": "/burst-pipe-water-damage-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/sewage-cleanup",
+      "destination": "/sewage-cleanup-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/storm-damage-restoration",
+      "destination": "/storm-damage-restoration-elizabeth-nj",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-water-damage-restoration",
+      "destination": "/commercial-water-damage-restoration-elizabeth-nj",
+      "permanent": true
     }
   ]
 }
-

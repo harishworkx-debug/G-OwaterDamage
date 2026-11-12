@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Service } from '@/data/services';
+import { buildPexelsSrcSet, buildPexelsWebpUrl } from '@/lib/images';
 import CallButton from '@/components/ui/CallButton';
 
 export default function ServiceCard({ service }: { service: Service }) {
@@ -8,9 +9,14 @@ export default function ServiceCard({ service }: { service: Service }) {
     <article className="group flex flex-col overflow-hidden rounded-3xl border border-navy-100 bg-white shadow-sm transition duration-500 hover:-translate-y-1 hover:border-ocean-200 hover:shadow-xl hover:shadow-navy-900/10">
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
-          src={service.image}
+          src={buildPexelsWebpUrl(service.image, 940)}
+          srcSet={buildPexelsSrcSet(service.image, [480, 640, 940])}
+          sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 95vw"
+          width={940}
+          height={705}
           alt={service.imageAlt}
           loading="lazy"
+          decoding="async"
           className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 to-transparent" aria-hidden="true" />

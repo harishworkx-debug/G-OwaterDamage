@@ -46,7 +46,7 @@ export const services: Service[] = [
     summary:
       'Removal of water from basements and lower levels, followed by drying of walls, floors, and stored building materials.',
     image: 'https://images.pexels.com/photos/28447767/pexels-photo-28447767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    imageAlt: 'Suburban house affected by floodwaters, shown in black and white',
+    imageAlt: 'Residential home with basement level affected by floodwater',
     callLabel: 'Call About Basement Water Damage',
   },
   {

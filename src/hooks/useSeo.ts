@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { business } from '@/data/business';
+import { SeoCollectorContext } from '@/lib/seoContext';
 
 interface SeoOptions {
   title: string;
@@ -48,6 +49,16 @@ export function useSeo({ title, description, path, schemaNodes }: SeoOptions) {
     schemaNodes && schemaNodes.length > 0
       ? JSON.stringify({ '@context': 'https://schema.org', '@graph': schemaNodes })
       : '';
+
+  const collectSeo = useContext(SeoCollectorContext);
+  if (collectSeo) {
+    collectSeo({
+      title,
+      description,
+      path,
+      schemaPayload,
+    });
+  }
 
   useEffect(() => {
     const url = `${business.siteUrl}${path}`;

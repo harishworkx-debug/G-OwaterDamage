@@ -1,10 +1,20 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { SeoCollectorContext } from '@/lib/seoContext';
 import PageHeader from '@/components/layout/PageHeader';
 import CallButton from '@/components/ui/CallButton';
 import FinalCta from '@/components/ui/FinalCta';
 
 export default function NotFoundPage() {
+  const collectSeo = useContext(SeoCollectorContext);
+  if (collectSeo) {
+    collectSeo({
+      title: 'Page Not Found | G&OwaterDamage',
+      description: 'The requested page could not be found on G&OwaterDamage.',
+      robots: 'noindex, nofollow',
+    });
+  }
+
   useEffect(() => {
     document.title = 'Page Not Found | G&OwaterDamage';
 

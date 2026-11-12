@@ -1,4 +1,5 @@
-import { ShieldCheck } from 'lucide-react';
+import { ArrowRight, ShieldCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 const steps = [
@@ -23,6 +24,22 @@ export default function FirstStepsSection() {
             title="What to do right after water damage"
             description="These steps can help limit further damage while you wait for help. They do not replace professional assessment."
           />
+          <div className="flex flex-col gap-2.5 pt-2 text-sm font-bold">
+            <Link
+              to="/blog/what-to-do-after-water-damage"
+              className="inline-flex items-center gap-2 text-ocean-700 transition hover:text-ocean-900 hover:underline"
+            >
+              Read full guide: What to do after water damage
+              <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+            </Link>
+            <Link
+              to="/blog"
+              className="inline-flex items-center gap-2 text-navy-700 transition hover:text-ocean-800 hover:underline"
+            >
+              Browse all homeowner water damage guides
+              <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+            </Link>
+          </div>
         </div>
         <ol className="grid gap-4 sm:grid-cols-2">
           {steps.map((step, index) => (

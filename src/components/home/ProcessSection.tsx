@@ -1,3 +1,5 @@
+import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 const steps = [
@@ -33,6 +35,22 @@ export default function ProcessSection() {
             title="How water damage restoration generally works"
             description="This is a general overview of the stages involved in water damage work. The team will explain how your specific job would be handled when you call."
           />
+          <div className="flex flex-col gap-2.5 pt-2 text-sm font-bold">
+            <Link
+              to="/about"
+              className="inline-flex items-center gap-2 text-ocean-700 transition hover:text-ocean-900 hover:underline"
+            >
+              About our Elizabethport restoration team
+              <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-2 text-navy-700 transition hover:text-ocean-800 hover:underline"
+            >
+              View our address &amp; contact information
+              <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+            </Link>
+          </div>
         </div>
         <ol className="relative space-y-6 border-l-2 border-ocean-100 pl-8">
           {steps.map((step, index) => (

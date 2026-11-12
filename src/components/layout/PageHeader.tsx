@@ -18,7 +18,7 @@ export default function PageHeader({ eyebrow, title, description, children }: Pa
         }}
         aria-hidden="true"
       />
-      <div className="container-page relative space-y-6 animate-fade-up">
+      <div className="container-page relative space-y-6">
         <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-cyan-200">{eyebrow}</p>
         <h1 className="max-w-4xl text-4xl font-extrabold md:text-6xl">{title}</h1>
         <p className="max-w-2xl text-lg leading-[1.5] text-navy-100">{description}</p>

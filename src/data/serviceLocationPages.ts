@@ -71,7 +71,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'water-damage-restoration',
     title: 'Water Damage Restoration Elizabeth NJ | G&O',
     description:
-      'Water damage repair and emergency restoration in Elizabeth, NJ—from initial phone assessment and water extraction through structural drying and repair readiness. Call 908-677-5006.',
+      'Water damage repair and emergency restoration in Elizabeth, NJ—assessment, water extraction, structural drying, and repair readiness. Call 908-677-5006.',
     h1: 'Water Damage Restoration in Elizabeth, NJ',
     eyebrow: 'Water Damage Repair & Emergency Restoration',
     intro: [

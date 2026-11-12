@@ -38,7 +38,7 @@ export default function ServiceAreasPage() {
   useSeo({
     title: 'Water Damage Restoration Service Areas in NJ',
     description:
-      'Explore G&OwaterDamage water damage restoration service areas. We provide water restoration near Elizabeth, NJ and nearby water damage services—call 908-677-5006 to confirm coverage.',
+      'Explore G&OwaterDamage water damage restoration service areas near Elizabeth, NJ. Serving Elizabethport and nearby towns—call 908-677-5006 for coverage.',
     path: '/service-areas',
     schemaNodes: [breadcrumbListSchema(breadcrumbs, '/service-areas')],
   });
@@ -100,7 +100,7 @@ export default function ServiceAreasPage() {
                     {area.name}
                   </span>
                   <span className="inline-flex items-center gap-2 text-sm font-bold text-ocean-700">
-                    View town page
+                    Water damage in {area.name}
                     <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" aria-hidden="true" />
                   </span>
                 </Link>
@@ -131,7 +131,7 @@ export default function ServiceAreasPage() {
                       <p className="leading-[1.5] text-navy-600">{service?.summary}</p>
                     </div>
                     <span className="inline-flex items-center gap-2 font-extrabold text-ocean-700">
-                      View page
+                      Explore {service?.name ?? 'service'}
                       <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" aria-hidden="true" />
                     </span>
                   </Link>

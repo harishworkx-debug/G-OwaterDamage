@@ -69,7 +69,7 @@ export function websiteSchema(): Record<string, unknown> {
 
 export function localBusinessSchema(): Record<string, unknown> {
   return {
-    '@type': 'LocalBusiness',
+    '@type': 'HomeAndConstructionBusiness',
     '@id': LOCAL_BUSINESS_ID,
     name: business.name,
     description:

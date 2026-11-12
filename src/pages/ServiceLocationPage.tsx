@@ -1,6 +1,7 @@
-import { AlertTriangle, ArrowRight, Check, Star } from 'lucide-react';
+import { AlertTriangle, ArrowRight, Check, MapPin, Star } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { useSeo } from '@/hooks/useSeo';
+import { buildPexelsSrcSet, buildPexelsWebpUrl, HIGH_PRIORITY_IMAGE_PROPS } from '@/lib/images';
 import { getService, type Service } from '@/data/services';
 import {
   getServiceLocationPage,
@@ -74,7 +75,14 @@ function ServiceLocationContent({ page, service }: { page: LocationPage; service
 
       <section className="container-page pt-12">
         <img
-          src={service.image}
+          src={buildPexelsWebpUrl(service.image, 1280)}
+          srcSet={buildPexelsSrcSet(service.image, [640, 940, 1280])}
+          sizes="(min-width: 1280px) 1184px, 95vw"
+          width={1280}
+          height={720}
+          loading="eager"
+          decoding="async"
+          {...HIGH_PRIORITY_IMAGE_PROPS}
           alt={service.imageAlt}
           className="aspect-[16/9] w-full rounded-3xl object-cover shadow-2xl shadow-navy-900/20 md:aspect-[21/9]"
         />
@@ -149,13 +157,53 @@ function ServiceLocationContent({ page, service }: { page: LocationPage; service
               </li>
             ))}
           </ul>
-          <Link
-            to="/service-areas#elizabeth-nj"
-            className="inline-flex items-center gap-2 font-bold text-ocean-700 transition hover:text-ocean-900 hover:underline"
-          >
-            Read about our Elizabeth, NJ service area
-            <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </Link>
+
+          <div className="flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-navy-100 pt-6">
+            {page.slug !== 'water-damage-restoration-elizabeth-nj' && (
+              <Link
+                to="/water-damage-restoration-elizabeth-nj"
+                className="inline-flex items-center gap-2 font-bold text-ocean-700 transition hover:text-ocean-900 hover:underline"
+              >
+                Water Damage Restoration in Elizabeth, NJ
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            )}
+            <Link
+              to="/service-areas#elizabeth-nj"
+              className="inline-flex items-center gap-2 font-bold text-ocean-700 transition hover:text-ocean-900 hover:underline"
+            >
+              Read about our Elizabeth, NJ service area
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-2 font-bold text-navy-800 transition hover:text-ocean-900 hover:underline"
+            >
+              Contact our Elizabeth team
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3 pt-2 text-sm">
+            <span className="inline-flex items-center gap-1.5 font-bold text-navy-600">
+              <MapPin className="h-4 w-4 text-ocean-600" aria-hidden="true" />
+              Nearby towns served:
+            </span>
+            {[
+              { name: 'Elizabethport, NJ', to: '/water-damage-restoration-elizabethport-nj' },
+              { name: 'Linden, NJ', to: '/water-damage-restoration-linden-nj' },
+              { name: 'Union, NJ', to: '/water-damage-restoration-union-nj' },
+              { name: 'Newark, NJ', to: '/water-damage-restoration-newark-nj' },
+            ].map((area) => (
+              <Link
+                key={area.to}
+                to={area.to}
+                className="rounded-full border border-navy-200 bg-white px-3.5 py-1.5 font-semibold text-navy-800 transition hover:border-ocean-300 hover:bg-ocean-50 hover:text-ocean-800"
+              >
+                Water Damage Restoration {area.name}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -326,9 +374,8 @@ function ChecklistSection({
             {section.items.map((item) => (
               <li
                 key={item}
-                className={`flex gap-4 rounded-2xl border p-6 shadow-sm ${
-                  isWarning ? 'border-amber-200 bg-amber-50/40' : 'border-navy-100 bg-white'
-                }`}
+                className={`flex gap-4 rounded-2xl border p-6 shadow-sm ${isWarning ? 'border-amber-200 bg-amber-50/40' : 'border-navy-100 bg-white'
+                  }`}
               >
                 <span className={`mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full ${iconStyle}`}>
                   <Icon className="h-4 w-4" aria-hidden="true" />
