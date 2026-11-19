@@ -6,6 +6,7 @@ export interface SeoHeadData {
   path?: string;
   robots?: string;
   schemaPayload?: string;
+  siteName?: string;
 }
 
 export type SeoCollector = (data: SeoHeadData) => void;
