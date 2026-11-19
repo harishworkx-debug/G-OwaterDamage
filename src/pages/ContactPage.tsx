@@ -13,7 +13,7 @@ export default function ContactPage() {
   useSeo({
     title: 'Contact Water Damage Restoration Elizabeth NJ',
     description:
-      'Contact G&OwaterDamage for water damage restoration in Elizabeth, NJ. Call 908-677-5006 for emergency water help at 505 Elizabeth Ave, Elizabethport.',
+      'Contact G&OwaterDamage for water damage restoration in Elizabeth, NJ. Call (908) 224-8067 for emergency water help at 505 Elizabeth Ave, Elizabethport.',
     path: '/contact',
     schemaNodes: [localBusinessSchema(), breadcrumbListSchema(breadcrumbs, '/contact')],
   });
@@ -23,7 +23,7 @@ export default function ContactPage() {
       <PageHeader
         eyebrow="Contact Information"
         title="Contact Our Water Damage Restoration Team"
-        description="Need emergency water damage help or ready to request water damage service? Call G&OwaterDamage at 908-677-5006 to discuss leaks, flooding, and coverage for your property."
+        description="Need emergency water damage help or ready to request water damage service? Call G&OwaterDamage at (908) 224-8067 to discuss leaks, flooding, and coverage for your property."
       >
         <CallButton />
       </PageHeader>

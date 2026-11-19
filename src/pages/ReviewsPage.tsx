@@ -16,7 +16,7 @@ export default function ReviewsPage() {
   useSeo({
     title: 'Water Damage Restoration Reviews | G&OwaterDamage',
     description:
-      'Read verified water damage restoration reviews for G&OwaterDamage. Customer reviews rated 5.0 out of 5 stars on Google—call 908-677-5006 for service.',
+      'Read verified water damage restoration reviews for G&OwaterDamage. Customer reviews rated 5.0 out of 5 stars on Google—call (908) 224-8067 for service.',
     path: '/reviews',
     schemaNodes: [breadcrumbListSchema(breadcrumbs, '/reviews')],
   });

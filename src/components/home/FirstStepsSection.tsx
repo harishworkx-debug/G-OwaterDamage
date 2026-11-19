@@ -8,7 +8,7 @@ const steps = [
   'Turn off power to affected areas if it is safe to do so.',
   'Photograph the damage before moving items, for your insurance records.',
   'Move valuables and dry items out of the wet area when it is safe.',
-  'Call 908-677-5006 with your address, the water source, and the rooms affected.',
+  'Call (908) 224-8067 with your address, the water source, and the rooms affected.',
 ];
 
 export default function FirstStepsSection() {

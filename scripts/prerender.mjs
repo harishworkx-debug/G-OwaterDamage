@@ -49,13 +49,6 @@ function buildPageHtml(template, renderedHtml, seo) {
     'og:description',
   );
 
-  if (seo.siteName) {
-    output = output.replace(
-      /<meta\s+property="og:site_name"\s+content="[^"]*"\s*\/?>/,
-      `<meta property="og:site_name" content="${escapeHtml(seo.siteName)}" />`,
-    );
-  }
-
   if (seo.path) {
     const canonicalUrl = `${SITE_URL}${seo.path}`;
     output = replaceRequired(
@@ -138,13 +131,6 @@ async function main() {
     fs.mkdirSync(path.dirname(outFile), { recursive: true });
     fs.writeFileSync(outFile, finalHtml, 'utf8');
   }
-
-  // Also prerender standby landing page preview at /home-page
-  const landingRender = render('/home-page');
-  const landingHtml = buildPageHtml(template, landingRender.html, landingRender.seo);
-  const landingOutFile = resolveOutputFile('/home-page');
-  fs.mkdirSync(path.dirname(landingOutFile), { recursive: true });
-  fs.writeFileSync(landingOutFile, landingHtml, 'utf8');
 
   const notFoundRender = render('/404-not-found-route-check');
   const notFoundHtml = buildPageHtml(template, notFoundRender.html, notFoundRender.seo);

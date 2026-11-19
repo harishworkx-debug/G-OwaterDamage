@@ -28,7 +28,7 @@ const areaFaqs = [
   {
     question: 'Do you serve the other towns listed here?',
     answer:
-      'Coverage is confirmed by phone for each town. Call 908-677-5006 with your address and the team will tell you whether they can help.',
+      'Coverage is confirmed by phone for each town. Call (908) 224-8067 with your address and the team will tell you whether they can help.',
   },
 ];
 
@@ -38,7 +38,7 @@ export default function ServiceAreasPage() {
   useSeo({
     title: 'Water Damage Restoration Service Areas in NJ',
     description:
-      'Explore G&OwaterDamage water damage restoration service areas near Elizabeth, NJ. Serving Elizabethport and nearby towns—call 908-677-5006 for coverage.',
+      'Explore G&OwaterDamage water damage restoration service areas near Elizabeth, NJ. Serving Elizabethport and nearby towns—call (908) 224-8067 for coverage.',
     path: '/service-areas',
     schemaNodes: [breadcrumbListSchema(breadcrumbs, '/service-areas')],
   });

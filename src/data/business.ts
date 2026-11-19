@@ -1,8 +1,8 @@
 export const business = {
   name: 'G&OwaterDamage',
   category: 'Water Damage Restoration Service',
-  phoneDisplay: '908-677-5006',
-  phoneHref: 'tel:+19086775006',
+  phoneDisplay: '(908) 224-8067',
+  phoneHref: 'tel:+19082248067',
   street: '505 Elizabeth Ave',
   locality: 'Elizabethport',
   region: 'NJ',

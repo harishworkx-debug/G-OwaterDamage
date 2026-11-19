@@ -64,7 +64,7 @@ export const blogPosts: BlogPost[] = [
       ],
       [
         'Before grabbing mops or pulling carpet up, follow a calm safety-first order. When you need professional help right away in Elizabeth or surrounding communities, call ',
-        '908-677-5006 or explore our full process for ',
+        '(908) 224-8067 or explore our full process for ',
         { label: 'water damage restoration in Elizabeth, NJ', to: '/water-damage-restoration-elizabeth-nj' },
         ' so mitigation starts on solid footing.',
       ],
@@ -84,7 +84,7 @@ export const blogPosts: BlogPost[] = [
         ],
         callout: {
           title: 'When to stay completely clear of the water',
-          text: 'If water reaches your electrical panel, gas water heater pilot, furnace base, or smells like raw sewage from a floor drain backup, stay out of the room and call utility pros and 908-677-5006 before touching anything.',
+          text: 'If water reaches your electrical panel, gas water heater pilot, furnace base, or smells like raw sewage from a floor drain backup, stay out of the room and call utility pros and (908) 224-8067 before touching anything.',
           tone: 'safety',
         },
       },
@@ -135,7 +135,7 @@ export const blogPosts: BlogPost[] = [
         heading: '5. Call a local water damage crew with accurate details',
         paragraphs: [
           [
-            'Every call to G&OwaterDamage at 908-677-5006 starts with a straightforward conversation: your street address, where water entered, approximate standing depth, and which flooring types are wet. From our nearby Elizabethport office at 505 Elizabeth Ave, we confirm coverage and explain next steps honestly—including what falls under water mitigation versus licensed plumbing or electrical trades.',
+            'Every call to G&OwaterDamage at (908) 224-8067 starts with a straightforward conversation: your street address, where water entered, approximate standing depth, and which flooring types are wet. From our nearby Elizabethport office at 505 Elizabeth Ave, we confirm coverage and explain next steps honestly—including what falls under water mitigation versus licensed plumbing or electrical trades.',
           ],
         ],
       },
@@ -232,7 +232,7 @@ export const blogPosts: BlogPost[] = [
             ' pull locked vapor out of stud bays and subflooring until meter checks clear.',
           ],
           [
-            'If you spot bubbling baseboards or suspicious ceiling stains in Elizabeth or neighboring towns, call 908-677-5006 to describe the signs and location so we can advise whether an inspection fits cleanly.',
+            'If you spot bubbling baseboards or suspicious ceiling stains in Elizabeth or neighboring towns, call (908) 224-8067 to describe the signs and location so we can advise whether an inspection fits cleanly.',
           ],
         ],
       },
@@ -328,7 +328,7 @@ export const blogPosts: BlogPost[] = [
             '.',
           ],
           [
-            'If water soaked rooms at your property in Elizabeth or nearby communities, call 908-677-5006 to describe the depth and flooring affected so we can help plan extraction and drying together.',
+            'If water soaked rooms at your property in Elizabeth or nearby communities, call (908) 224-8067 to describe the depth and flooring affected so we can help plan extraction and drying together.',
           ],
         ],
       },

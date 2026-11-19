@@ -14,7 +14,7 @@ export default function ServicesPage() {
   useSeo({
     title: 'Water Damage Restoration Services | G&OwaterDamage',
     description:
-      'Explore water damage restoration services from G&OwaterDamage, including water removal, flood cleanup, and structural drying. Call 908-677-5006 today.',
+      'Explore water damage restoration services from G&OwaterDamage, including water removal, flood cleanup, and structural drying. Call (908) 224-8067 today.',
     path: '/services',
     schemaNodes: [breadcrumbListSchema(breadcrumbs, '/services')],
   });

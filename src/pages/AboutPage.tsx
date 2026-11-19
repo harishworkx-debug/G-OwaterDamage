@@ -31,7 +31,7 @@ export default function AboutPage() {
   useSeo({
     title: 'About Our Water Damage Restoration Team',
     description:
-      'Learn about G&OwaterDamage, a local water damage restoration company at 505 Elizabeth Ave in Elizabethport, NJ. Call our restoration team at 908-677-5006.',
+      'Learn about G&OwaterDamage, a local water damage restoration company at 505 Elizabeth Ave in Elizabethport, NJ. Call our restoration team at (908) 224-8067.',
     path: '/about',
     schemaNodes: [organizationSchema(), breadcrumbListSchema(breadcrumbs, '/about')],
   });

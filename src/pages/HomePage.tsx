@@ -15,7 +15,7 @@ export default function HomePage() {
   useSeo({
     title: 'Water Damage Restoration Elizabeth NJ | G&OwaterDamage',
     description:
-      'Trusted water damage company in Elizabeth, NJ. Call G&OwaterDamage at 908-677-5006 for emergency water damage restoration, flood cleanup, and drying.',
+      'Trusted water damage company in Elizabeth, NJ. Call G&OwaterDamage at (908) 224-8067 for emergency water damage restoration, flood cleanup, and drying.',
     path: '/',
     schemaNodes: [websiteSchema(), organizationSchema()],
   });

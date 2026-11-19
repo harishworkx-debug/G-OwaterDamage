@@ -12,7 +12,7 @@ const homeFaqs = [
   {
     question: 'Do you serve my town?',
     answer:
-      'The towns we serve are listed above. Coverage is confirmed by phone, so call 908-677-5006 with your address.',
+      'The towns we serve are listed above. Coverage is confirmed by phone, so call (908) 224-8067 with your address.',
   },
   {
     question: 'What should I have ready when I call?',
@@ -22,7 +22,7 @@ const homeFaqs = [
   {
     question: 'Can I book online?',
     answer:
-      'No. G&OwaterDamage is reached by phone only. Call 908-677-5006 to talk with the team about your property.',
+      'No. G&OwaterDamage is reached by phone only. Call (908) 224-8067 to talk with the team about your property.',
   },
 ];
 

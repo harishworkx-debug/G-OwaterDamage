@@ -9,7 +9,7 @@ const SITE_ROOT = `${business.siteUrl}/`;
 const ORGANIZATION_ID = `${business.siteUrl}/#organization`;
 const WEBSITE_ID = `${business.siteUrl}/#website`;
 const LOCAL_BUSINESS_ID = `${business.siteUrl}/#localbusiness`;
-const TELEPHONE_E164 = '+1-908-677-5006';
+const TELEPHONE_E164 = '+1-908-224-8067';
 
 const VERIFIED_ADDRESS = {
   '@type': 'PostalAddress',
@@ -73,7 +73,7 @@ export function localBusinessSchema(): Record<string, unknown> {
     '@id': LOCAL_BUSINESS_ID,
     name: business.name,
     description:
-      'Water Damage Restoration Service at 505 Elizabeth Ave, Elizabethport, NJ 07206. Call 908-677-5006 for phone-confirmed water extraction, flood cleanup, and structural drying.',
+      'Water Damage Restoration Service at 505 Elizabeth Ave, Elizabethport, NJ 07206. Call (908) 224-8067 for phone-confirmed water extraction, flood cleanup, and structural drying.',
     url: SITE_ROOT,
     image: `${business.siteUrl}/icon-512.png`,
     telephone: TELEPHONE_E164,

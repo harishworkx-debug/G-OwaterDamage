@@ -120,13 +120,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Elizabeth, Union County, NJ',
     title: 'Water Damage Restoration Elizabethport NJ | G&OwaterDamage',
     description:
-      'From our office at 505 Elizabeth Ave in Elizabethport, NJ, G&OwaterDamage provides water extraction, lower-level drying, and leak cleanup. Call 908-677-5006.',
+      'From our office at 505 Elizabeth Ave in Elizabethport, NJ, G&OwaterDamage provides water extraction, lower-level drying, and leak cleanup. Call (908) 224-8067.',
     h1: 'Water Damage Restoration in Elizabethport, NJ',
     heroDescription:
-      'Dispatched directly from our office at 505 Elizabeth Ave in Elizabethport, NJ 07206. Call 908-677-5006 for residential cleanup, basement water issues, or leaks.',
+      'Dispatched directly from our office at 505 Elizabeth Ave in Elizabethport, NJ 07206. Call (908) 224-8067 for residential cleanup, basement water issues, or leaks.',
     introHeading: 'Residential cleanup and water intrusion help inside Elizabethport',
     intro: [
-      'G&OwaterDamage is based directly inside the neighborhood at 505 Elizabeth Ave in Elizabethport, NJ 07206. Because our office operates right along the eastern Elizabeth corridor bordering Newark Bay and the Arthur Kill, we speak directly with Elizabethport homeowners, two-family landlords, and first-floor tenants every day about water availability and cleanup timing at 908-677-5006.',
+      'G&OwaterDamage is based directly inside the neighborhood at 505 Elizabeth Ave in Elizabethport, NJ 07206. Because our office operates right along the eastern Elizabeth corridor bordering Newark Bay and the Arthur Kill, we speak directly with Elizabethport homeowners, two-family landlords, and first-floor tenants every day about water availability and cleanup timing at (908) 224-8067.',
       'Blocks along Elizabeth Ave, First Street, and the lower river corridor combine dense wood-frame multi-family residences, brick row structures, and older below-grade cellars with coastal storm drainage challenges. Whether you need emergency water removal in Elizabethport after a storm surge or focused drying after a kitchen stack leak, early action keeps dampness out of shared plaster walls and wood floor joists.',
     ],
     housingProfile:
@@ -134,7 +134,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Low-lying street grades near the lower Elizabeth River mouth, Newark Bay, and Arthur Kill can back up storm drains during heavy rainstorms aligned with high coastal tides.',
     coverageNote:
-      'Our local headquarters sits right at 505 Elizabeth Ave, Elizabethport, NJ 07206. Dispatch schedules and same-day availability are confirmed directly by phone at 908-677-5006.',
+      'Our local headquarters sits right at 505 Elizabeth Ave, Elizabethport, NJ 07206. Dispatch schedules and same-day availability are confirmed directly by phone at (908) 224-8067.',
     situationsHeading: 'Common water intrusion & basement situations in Elizabethport',
     situationsIntro:
       'In older multi-story homes and tightly spaced neighborhood blocks, water problems typically begin in lower levels or along shared plumbing walls.',
@@ -196,7 +196,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       'Operating from 505 Elizabeth Ave lets our crew guide your initial response by phone and move smoothly through every cleanup stage.',
     processSteps: [
       {
-        title: 'Direct phone triage at 908-677-5006',
+        title: 'Direct phone triage at (908) 224-8067',
         text: 'Tell us your block, whether an upstairs unit or basement took on water, and whether power/plumbing shutoffs are safely turned off.',
       },
       {
@@ -237,27 +237,27 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Where is G&OwaterDamage located in Elizabethport?',
         answer:
-          'Our office is at 505 Elizabeth Ave, Elizabethport, NJ 07206. Because our crew is regularly out on jobs, please call 908-677-5006 before stopping by or to confirm dispatch timing to your home.',
+          'Our office is at 505 Elizabeth Ave, Elizabethport, NJ 07206. Because our crew is regularly out on jobs, please call (908) 224-8067 before stopping by or to confirm dispatch timing to your home.',
       },
       {
         question: 'An upstairs neighbor’s pipe or bath overflowed into our ceiling—how does cleanup work?',
         answer:
-          'Have the upstairs plumbing valve shut off or repaired by a plumber right away, then call 908-677-5006. Both owner/landlord authorization and extraction/drying across affected apartment levels are discussed clearly on the call.',
+          'Have the upstairs plumbing valve shut off or repaired by a plumber right away, then call (908) 224-8067. Both owner/landlord authorization and extraction/drying across affected apartment levels are discussed clearly on the call.',
       },
       {
         question: 'Can you help after coastal storm rain enters our Elizabethport basement?',
         answer:
-          'Yes. Stay out of standing water near basement panels or furnaces until safe, photograph the water height, and call 908-677-5006 so we can advise on storm cleanup and extraction.',
+          'Yes. Stay out of standing water near basement panels or furnaces until safe, photograph the water height, and call (908) 224-8067 so we can advise on storm cleanup and extraction.',
       },
       {
         question: 'What if water backed up out of a basement floor drain during heavy rain?',
         answer:
-          'Drain backups may carry contaminated sewer water rather than clean rainwater. Keep household members away from the puddle and call 908-677-5006 first so we can confirm availability for contaminated cleanup.',
+          'Drain backups may carry contaminated sewer water rather than clean rainwater. Keep household members away from the puddle and call (908) 224-8067 first so we can confirm availability for contaminated cleanup.',
       },
     ],
     contactCtaHeading: 'Water inside your Elizabethport home or basement?',
     contactCtaText:
-      'Call our local office at 505 Elizabeth Ave directly on 908-677-5006 to describe the water source and confirm help for your block.',
+      'Call our local office at 505 Elizabeth Ave directly on (908) 224-8067 to describe the water source and confirm help for your block.',
     nearbySlugs: [
       'water-damage-restoration-elizabeth-nj',
       'water-damage-restoration-linden-nj',
@@ -270,13 +270,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Linden NJ | G&OwaterDamage',
     description:
-      'Basement water cleanup, standing water extraction, and drying for Linden homes and Route 1 & 9 commercial spaces. Call 908-677-5006 to check availability.',
+      'Basement water cleanup, standing water extraction, and drying for Linden homes and Route 1 & 9 commercial spaces. Call (908) 224-8067 to check availability.',
     h1: 'Water Damage Restoration in Linden, NJ',
     heroDescription:
-      'Serving both residential neighborhoods and Route 1 & 9 commercial spaces in Linden, NJ from nearby Elizabethport. Call 908-677-5006 to confirm coverage.',
+      'Serving both residential neighborhoods and Route 1 & 9 commercial spaces in Linden, NJ from nearby Elizabethport. Call (908) 224-8067 to confirm coverage.',
     introHeading: 'Residential and commercial water damage restoration across Linden',
     intro: [
-      'Linden borders our Elizabethport headquarters immediately to the south along Routes 1 & 9 and South Wood Avenue. Because our office at 505 Elizabeth Ave is only minutes away, G&OwaterDamage is ready to discuss availability for both Linden residential streets—such as Sunnyside and Tremley—and commercial corridors along Routes 1 & 9 and St. George Avenue by calling 908-677-5006.',
+      'Linden borders our Elizabethport headquarters immediately to the south along Routes 1 & 9 and South Wood Avenue. Because our office at 505 Elizabeth Ave is only minutes away, G&OwaterDamage is ready to discuss availability for both Linden residential streets—such as Sunnyside and Tremley—and commercial corridors along Routes 1 & 9 and St. George Avenue by calling (908) 224-8067.',
       'Properties across Linden span mid-century Capes and split-levels with finished lower levels alongside ground-floor offices, retail storefronts, and light-industrial bays built on flat terrain near the lower Rahway River corridor. Whether a homeowner calls for water damage restoration near Linden after basement storm runoff or a business manager needs emergency water removal in Linden overnight, rapid pumping and controlled drying keep minor incidents from halting operations.',
     ],
     housingProfile:
@@ -284,7 +284,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Flat lower-basin grading bordering the lower Rahway River and Arthur Kill tributaries where wide paved surfaces send storm runoff quickly toward ground floors and basement entries.',
     coverageNote:
-      'Linden sits directly adjacent to our Elizabethport headquarters (505 Elizabeth Ave, NJ 07206). Street-specific dispatch timing is confirmed directly by phone at 908-677-5006.',
+      'Linden sits directly adjacent to our Elizabethport headquarters (505 Elizabeth Ave, NJ 07206). Street-specific dispatch timing is confirmed directly by phone at (908) 224-8067.',
     situationsHeading: 'Residential & commercial water situations common in Linden',
     situationsIntro:
       'Linden callers typically face either below-grade residential basement dampness or wide ground-level commercial water intrusion.',
@@ -347,7 +347,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     processSteps: [
       {
         title: 'Phone consultation for address & property scope',
-        text: 'Call 908-677-5006 with your Linden street, whether the space is residential or commercial, and rough room or bay count to confirm coverage.',
+        text: 'Call (908) 224-8067 with your Linden street, whether the space is residential or commercial, and rough room or bay count to confirm coverage.',
       },
       {
         title: 'Utility isolation & source confirmation',
@@ -387,12 +387,12 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Do you cover all Linden residential neighborhoods and Route 1 & 9 commercial properties?',
         answer:
-          'Linden sits right next to our Elizabethport base, and we serve residential homes as well as commercial offices, storefronts, and warehouses. Call 908-677-5006 with your address to confirm current availability.',
+          'Linden sits right next to our Elizabethport base, and we serve residential homes as well as commercial offices, storefronts, and warehouses. Call (908) 224-8067 with your address to confirm current availability.',
       },
       {
         question: 'Can commercial extraction or equipment checks be discussed outside customer hours?',
         answer:
-          'We discuss scheduling options on the phone based on crew schedule and your building access. Mention your storefront or warehouse hours when calling 908-677-5006.',
+          'We discuss scheduling options on the phone based on crew schedule and your building access. Mention your storefront or warehouse hours when calling (908) 224-8067.',
       },
       {
         question: 'Our finished Linden basement looks dry now, but baseboards swelled—why?',
@@ -402,12 +402,12 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Should a commercial tenant get landlord approval before scheduling cleanup?',
         answer:
-          'Checking lease responsibility early helps prevent billing delays—call 908-677-5006 and let us know whether the tenant, landlord, or property manager is coordinating access.',
+          'Checking lease responsibility early helps prevent billing delays—call (908) 224-8067 and let us know whether the tenant, landlord, or property manager is coordinating access.',
       },
     ],
     contactCtaHeading: 'Need residential or commercial water cleanup in Linden?',
     contactCtaText:
-      'Call our Elizabethport office at 908-677-5006 to describe the rooms or commercial square footage affected in Linden.',
+      'Call our Elizabethport office at (908) 224-8067 to describe the rooms or commercial square footage affected in Linden.',
     nearbySlugs: [
       'water-damage-restoration-elizabethport-nj',
       'water-damage-restoration-roselle-nj',
@@ -420,13 +420,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Roselle NJ | G&OwaterDamage',
     description:
-      'Leak cleanup, plaster and hardwood drying, and flooded basement recovery for older homes and apartments in Roselle, NJ. Phone 908-677-5006 to confirm coverage.',
+      'Leak cleanup, plaster and hardwood drying, and flooded basement recovery for older homes and apartments in Roselle, NJ. Phone (908) 224-8067 to confirm coverage.',
     h1: 'Water Damage Restoration in Roselle, NJ',
     heroDescription:
-      'Focused on basement flooding, plumbing leaks, and careful structural drying for Roselle homes and apartments. Call 908-677-5006 from nearby Elizabethport.',
+      'Focused on basement flooding, plumbing leaks, and careful structural drying for Roselle homes and apartments. Call (908) 224-8067 from nearby Elizabethport.',
     introHeading: 'Basement flooding and plumbing leak cleanup across Roselle',
     intro: [
-      'Roselle sits just west of Elizabeth along St. George Avenue and Chestnut Street—a short drive from our office at 505 Elizabeth Ave in Elizabethport. Property owners needing water damage restoration near Roselle can call 908-677-5006 directly to confirm dispatch availability for their street, apartment building, or single-family block.',
+      'Roselle sits just west of Elizabeth along St. George Avenue and Chestnut Street—a short drive from our office at 505 Elizabeth Ave in Elizabethport. Property owners needing water damage restoration near Roselle can call (908) 224-8067 directly to confirm dispatch availability for their street, apartment building, or single-family block.',
       'With many early- and mid-20th-century Colonials, Victorians, two-family houses, and garden apartments built on masonry basements and older supply risers, Roselle callers regularly deal with basement flooding after heavy rain as well as interior plumbing leaks inside multi-story walls. Treating plaster, lath, and tongue-and-groove wood flooring early preserves original finishes.',
     ],
     housingProfile:
@@ -434,7 +434,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Densely built residential blocks where cloudburst runoff can exceed yard grading and neighborhood storm catch basins, raising hydrostatic pressure against older fieldstone or block cellars.',
     coverageNote:
-      'Dispatched westward from 505 Elizabeth Ave, Elizabethport via Route 27 and Chestnut St. Coverage and arrival times for Roselle streets are confirmed by calling 908-677-5006.',
+      'Dispatched westward from 505 Elizabeth Ave, Elizabethport via Route 27 and Chestnut St. Coverage and arrival times for Roselle streets are confirmed by calling (908) 224-8067.',
     situationsHeading: 'Basement flooding & plumbing leak issues common in Roselle homes',
     situationsIntro:
       'Older wood construction and below-grade masonry cellars react differently to standing water than modern slab buildings.',
@@ -497,7 +497,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     processSteps: [
       {
         title: 'Phone intake covering leak or basement source',
-        text: 'Call 908-677-5006 and tell us whether water came from a plumbing line, basement floor seepage, or an upstairs unit so we confirm coverage and immediate precautions.',
+        text: 'Call (908) 224-8067 and tell us whether water came from a plumbing line, basement floor seepage, or an upstairs unit so we confirm coverage and immediate precautions.',
       },
       {
         title: 'Source verification & electrical clearance',
@@ -542,12 +542,12 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Should I call a plumber first or G&OwaterDamage first after a burst pipe?',
         answer:
-          'Shut off your main house valve right away if safe, call a licensed plumber to clamp or replace the pipe, and call 908-677-5006 so water extraction and structural drying aren’t delayed.',
+          'Shut off your main house valve right away if safe, call a licensed plumber to clamp or replace the pipe, and call (908) 224-8067 so water extraction and structural drying aren’t delayed.',
       },
       {
         question: 'How do I confirm coverage for my Roselle apartment or single-family street?',
         answer:
-          'Call 908-677-5006 with your cross street and describe which floor or basement room took on water. Our team confirms current dispatch availability on the phone.',
+          'Call (908) 224-8067 with your cross street and describe which floor or basement room took on water. Our team confirms current dispatch availability on the phone.',
       },
       {
         question: 'Can wet carpet padding in a flooded Roselle basement usually be saved?',
@@ -557,7 +557,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     ],
     contactCtaHeading: 'Dealing with basement flooding or a pipe leak in Roselle?',
     contactCtaText:
-      'Call 908-677-5006 to speak directly with our Elizabethport team about coverage and recovery for your Roselle home.',
+      'Call (908) 224-8067 to speak directly with our Elizabethport team about coverage and recovery for your Roselle home.',
     nearbySlugs: [
       'water-damage-restoration-roselle-park-nj',
       'water-damage-restoration-linden-nj',
@@ -570,13 +570,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Roselle Park NJ | G&OwaterDamage',
     description:
-      'Attic roof-leak drying, basement pumping, and burst pipe cleanup in Roselle Park, NJ. Dispatched from nearby Elizabethport—call 908-677-5006 to schedule.',
+      'Attic roof-leak drying, basement pumping, and burst pipe cleanup in Roselle Park, NJ. Dispatched from nearby Elizabethport—call (908) 224-8067 to schedule.',
     h1: 'Water Damage Restoration in Roselle Park, NJ',
     heroDescription:
-      'Complete residential property water damage restoration across Roselle Park homes and duplexes. Dispatched from nearby Elizabethport—call 908-677-5006.',
+      'Complete residential property water damage restoration across Roselle Park homes and duplexes. Dispatched from nearby Elizabethport—call (908) 224-8067.',
     introHeading: 'Residential property water damage restoration in Roselle Park',
     intro: [
-      'In Roselle Park’s compact square-mile neighborhoods of closely spaced single-family Colonials, two-family duplexes, and Chestnut Street residential blocks, water problems affect whole homes quickly—from wind-driven roof leaks dampening attics and bedrooms down to backyard runoff entering narrow driveway basements. Calling 908-677-5006 connects you directly with G&OwaterDamage at nearby 505 Elizabeth Ave to confirm same-area availability.',
+      'In Roselle Park’s compact square-mile neighborhoods of closely spaced single-family Colonials, two-family duplexes, and Chestnut Street residential blocks, water problems affect whole homes quickly—from wind-driven roof leaks dampening attics and bedrooms down to backyard runoff entering narrow driveway basements. Calling (908) 224-8067 connects you directly with G&OwaterDamage at nearby 505 Elizabeth Ave to confirm same-area availability.',
       'Whether homeowners are looking for water damage restoration near Roselle Park after a kitchen supply failure or post-storm lower-level seepage, protecting residential drywall, finished basement living spaces, and bedroom subfloors requires moving cleanly from fast water extraction straight into metered structural drying.',
     ],
     housingProfile:
@@ -584,7 +584,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Compact residential lots between the Elizabeth River and Rahway River corridors mean pitched neighbor roofs and narrow concrete driveways shed storm runoff directly toward window wells and foundations.',
     coverageNote:
-      'Located roughly 10–15 minutes west of 505 Elizabeth Ave along Route 28 (Westfield Ave). Availability for Roselle Park homes is confirmed directly by phone at 908-677-5006.',
+      'Located roughly 10–15 minutes west of 505 Elizabeth Ave along Route 28 (Westfield Ave). Availability for Roselle Park homes is confirmed directly by phone at (908) 224-8067.',
     situationsHeading: 'Residential water damage scenarios common in Roselle Park',
     situationsIntro:
       'Compact property footprints mean roof leaks, attic humidity, driveway runoff, and bath plumbing issues impact multiple rooms inside a home fast.',
@@ -647,7 +647,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     processSteps: [
       {
         title: 'Phone walkthrough of rooms & water source',
-        text: 'Call 908-677-5006 and describe whether moisture came from above the ceiling, through a burst pipe, or across a basement wall so we confirm scheduling.',
+        text: 'Call (908) 224-8067 and describe whether moisture came from above the ceiling, through a burst pipe, or across a basement wall so we confirm scheduling.',
       },
       {
         title: 'Household safety & exterior/plumbing isolation',
@@ -687,7 +687,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Rain soaked through an attic into a bedroom ceiling in Roselle Park—what happens first?',
         answer:
-          'Once weather clears safely, have a roofer place a tarp or patch the exterior shingle/flashing gap. Then call 908-677-5006 so soggy insulation and upper ceiling drywall framing can be evaluated and dried cleanly.',
+          'Once weather clears safely, have a roofer place a tarp or patch the exterior shingle/flashing gap. Then call (908) 224-8067 so soggy insulation and upper ceiling drywall framing can be evaluated and dried cleanly.',
       },
       {
         question: 'A neighbor’s driveway slopes water toward our foundation during heavy rain—can you dry our basement?',
@@ -697,7 +697,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'How do I check current availability in Roselle Park?',
         answer:
-          'Call 908-677-5006 with your address and describe the damp rooms so the team can confirm dispatch timing right away.',
+          'Call (908) 224-8067 with your address and describe the damp rooms so the team can confirm dispatch timing right away.',
       },
       {
         question: 'Can mildly damp drywall usually be dried in place instead of cut out?',
@@ -707,7 +707,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     ],
     contactCtaHeading: 'Need residential water restoration in Roselle Park?',
     contactCtaText:
-      'Call 908-677-5006 now to discuss roof leaks, basement seepage, or burst pipe drying with our local Elizabethport crew.',
+      'Call (908) 224-8067 now to discuss roof leaks, basement seepage, or burst pipe drying with our local Elizabethport crew.',
     nearbySlugs: [
       'water-damage-restoration-roselle-nj',
       'water-damage-restoration-cranford-nj',
@@ -720,13 +720,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Hillside NJ | G&OwaterDamage',
     description:
-      'Storm flash-flood cleanup, multi-unit pipe leak drying, and moisture checks in Hillside, NJ along Route 22. Call 908-677-5006 to confirm dispatch today.',
+      'Storm flash-flood cleanup, multi-unit pipe leak drying, and moisture checks in Hillside, NJ along Route 22. Call (908) 224-8067 to confirm dispatch today.',
     h1: 'Water Damage Restoration in Hillside, NJ',
     heroDescription:
-      'Focused on storm-related water intrusion, flash runoff cleanup, and property drying across Hillside, NJ. Call 908-677-5006 from nearby Elizabethport.',
+      'Focused on storm-related water intrusion, flash runoff cleanup, and property drying across Hillside, NJ. Call (908) 224-8067 from nearby Elizabethport.',
     introHeading: 'Storm water intrusion and property cleanup in Hillside',
     intro: [
-      'Hillside sits immediately north of Elizabeth along Route 22 and Liberty Avenue, directly bordering our Elizabethport service base at 505 Elizabeth Ave. Property owners seeking water damage restoration near Hillside can call 908-677-5006 anytime water strikes to confirm street coverage and immediate safety guidance.',
+      'Hillside sits immediately north of Elizabeth along Route 22 and Liberty Avenue, directly bordering our Elizabethport service base at 505 Elizabeth Ave. Property owners seeking water damage restoration near Hillside can call (908) 224-8067 anytime water strikes to confirm street coverage and immediate safety guidance.',
       'Positioned along the constrained upper Elizabeth River basin and heavily urbanized commercial corridors, Hillside properties frequently contend with intense storm-driven water intrusion—ranging from rapid yard and street runoff pushing into basements to roof and window breaches during nor’easters—alongside multi-family pipe failures. Prompt flood cleanup in Hillside keeps stormwater silt and trapped ceiling moisture from compounding structural damage.',
     ],
     housingProfile:
@@ -734,7 +734,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Straddles the upper Elizabeth River and tributaries where narrow drainage corridors and steep urbanized runoff cause rapid street pooling and storm-drain surcharges during cloudbursts.',
     coverageNote:
-      'Hillside shares a direct northern boundary with Elizabeth up North Broad St and Liberty Ave from 505 Elizabeth Ave. Call 908-677-5006 to confirm coverage for your Hillside block.',
+      'Hillside shares a direct northern boundary with Elizabeth up North Broad St and Liberty Ave from 505 Elizabeth Ave. Call (908) 224-8067 to confirm coverage for your Hillside block.',
     situationsHeading: 'Storm intrusion & property water problems seen in Hillside',
     situationsIntro:
       'Severe downpours and dense multi-family construction combine to create top-down and ground-level water emergencies.',
@@ -796,7 +796,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       'Every storm or interior water loss steps systematically from electrical clearance and water removal to dry verification.',
     processSteps: [
       {
-        title: 'Urgent phone intake at 908-677-5006',
+        title: 'Urgent phone intake at (908) 224-8067',
         text: 'Tell us whether storm runoff entered outside, rain leaked through a roof, or a pipe broke indoors so we confirm dispatch timing immediately.',
       },
       {
@@ -837,12 +837,12 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Do you cover neighborhoods near Route 22, Liberty Ave, and the Newark border in Hillside?',
         answer:
-          'Yes—coverage across all sections of Hillside is confirmed directly by phone. Call 908-677-5006 with your street address and what type of water entered.',
+          'Yes—coverage across all sections of Hillside is confirmed directly by phone. Call (908) 224-8067 with your street address and what type of water entered.',
       },
       {
         question: 'Stormwater entered through our garage and backed up our floor drain—is that treated as sewage?',
         answer:
-          'Floor drain backups during surcharged storms can carry sewer contaminants. Avoid skin contact, keep family out of the lower level, and call 908-677-5006 first so we confirm safe scope and availability.',
+          'Floor drain backups during surcharged storms can carry sewer contaminants. Avoid skin contact, keep family out of the lower level, and call (908) 224-8067 first so we confirm safe scope and availability.',
       },
       {
         question: 'Should we throw soaked furniture and rugs to the curb before calling?',
@@ -857,7 +857,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     ],
     contactCtaHeading: 'Storm water or leak damage in Hillside?',
     contactCtaText:
-      'Call 908-677-5006 to speak directly with our Elizabethport crew about emergency water removal and property cleanup in Hillside.',
+      'Call (908) 224-8067 to speak directly with our Elizabethport crew about emergency water removal and property cleanup in Hillside.',
     nearbySlugs: [
       'water-damage-restoration-elizabeth-nj',
       'water-damage-restoration-union-nj',
@@ -870,13 +870,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Union NJ | G&OwaterDamage',
     description:
-      'Structural drying, appliance leak mitigation, and basement pumping for Union Township houses, condos, and Route 22 storefronts. Call 908-677-5006.',
+      'Structural drying, appliance leak mitigation, and basement pumping for Union Township houses, condos, and Route 22 storefronts. Call (908) 224-8067.',
     h1: 'Water Damage Restoration in Union, NJ',
     heroDescription:
-      'Balanced residential and commercial restoration support across Union Township homes, condos, and Morris Ave businesses. Call 908-677-5006 to confirm coverage.',
+      'Balanced residential and commercial restoration support across Union Township homes, condos, and Morris Ave businesses. Call (908) 224-8067 to confirm coverage.',
     introHeading: 'Residential and commercial water restoration across Union Township',
     intro: [
-      'Union Township lies directly northwest of Elizabeth along Morris Avenue and Vauxhall Road, placing residential streets, garden condominiums, and commercial corridors within straightforward reach of our Elizabethport office at 505 Elizabeth Ave. Owners seeking water damage restoration near Union can confirm current scheduling and neighborhood dispatch simply by calling 908-677-5006.',
+      'Union Township lies directly northwest of Elizabeth along Morris Avenue and Vauxhall Road, placing residential streets, garden condominiums, and commercial corridors within straightforward reach of our Elizabethport office at 505 Elizabeth Ave. Owners seeking water damage restoration near Union can confirm current scheduling and neighborhood dispatch simply by calling (908) 224-8067.',
       'From finished split-level basements in Connecticut Farms and Vauxhall to multi-building townhomes near Kean University and commercial shops along Morris Avenue and Route 22, water damage takes on many forms here. Clean coordination matters—controlling basement seepage, handling emergency water removal in Union condos without disrupting neighbors, and drying commercial drywall partitions rapidly.',
     ],
     housingProfile:
@@ -884,7 +884,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Spans both the Elizabeth River and Rahway River corridors, where heavy storms saturate residential yards, overwhelm basement sumps, and flood low commercial parking grades.',
     coverageNote:
-      'Located straight up Morris Ave (Route 82) from 505 Elizabeth Ave in Elizabethport. Availability for all sections of Union Township is confirmed directly by phone at 908-677-5006.',
+      'Located straight up Morris Ave (Route 82) from 505 Elizabeth Ave in Elizabethport. Availability for all sections of Union Township is confirmed directly by phone at (908) 224-8067.',
     situationsHeading: 'Residential & commercial water situations across Union Township',
     situationsIntro:
       'Union’s mix of finished lower-level homes, shared multi-unit condos, and active retail corridors requires adaptable mitigation.',
@@ -947,7 +947,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     processSteps: [
       {
         title: 'Phone intake for home, HOA, or business details',
-        text: 'Call 908-677-5006 with your Union Township neighborhood, property type, and whether HOA or landlord sign-off applies so we confirm dispatch coverage.',
+        text: 'Call (908) 224-8067 with your Union Township neighborhood, property type, and whether HOA or landlord sign-off applies so we confirm dispatch coverage.',
       },
       {
         title: 'Safety shutoff & cross-wall scope trace',
@@ -987,7 +987,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Do you service Vauxhall, Connecticut Farms, Kean University areas, and Route 22 in Union?',
         answer:
-          'Yes—every part of Union Township sits right along our northwest dispatch corridor from Elizabethport. Call 908-677-5006 with your street address to confirm arrival timing.',
+          'Yes—every part of Union Township sits right along our northwest dispatch corridor from Elizabethport. Call (908) 224-8067 with your street address to confirm arrival timing.',
       },
       {
         question: 'If a leak occurred in our Union townhome or garden condo, can you coordinate with the HOA?',
@@ -1007,7 +1007,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     ],
     contactCtaHeading: 'Need residential or commercial restoration in Union, NJ?',
     contactCtaText:
-      'Call 908-677-5006 to speak with G&OwaterDamage about Union Township coverage, extraction, and drying scheduling.',
+      'Call (908) 224-8067 to speak with G&OwaterDamage about Union Township coverage, extraction, and drying scheduling.',
     nearbySlugs: [
       'water-damage-restoration-hillside-nj',
       'water-damage-restoration-roselle-park-nj',
@@ -1020,13 +1020,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Rahway NJ | G&OwaterDamage',
     description:
-      'Rahway River storm cleanup, deep-basement water removal, and downtown commercial drying in Rahway, NJ. Call 908-677-5006 for current service availability.',
+      'Rahway River storm cleanup, deep-basement water removal, and downtown commercial drying in Rahway, NJ. Call (908) 224-8067 for current service availability.',
     h1: 'Water Damage Restoration in Rahway, NJ',
     heroDescription:
-      'Focused on floodwater removal, burst pipe cleanup, and structural drying for Rahway homes and downtown buildings. Call 908-677-5006 to check availability.',
+      'Focused on floodwater removal, burst pipe cleanup, and structural drying for Rahway homes and downtown buildings. Call (908) 224-8067 to check availability.',
     introHeading: 'Flooding, burst pipe cleanup, and water removal in Rahway',
     intro: [
-      'Rahway sits just south of Elizabeth and Linden along Routes 1 & 9 and St. George Avenue, placing the entire city within direct driving distance from our Elizabethport office at 505 Elizabeth Ave. Owners seeking water damage restoration near Rahway can call 908-677-5006 immediately to confirm current availability and discuss the rooms impacted.',
+      'Rahway sits just south of Elizabeth and Linden along Routes 1 & 9 and St. George Avenue, placing the entire city within direct driving distance from our Elizabethport office at 505 Elizabeth Ave. Owners seeking water damage restoration near Rahway can call (908) 224-8067 immediately to confirm current availability and discuss the rooms impacted.',
       'Sitting near the convergence of the lower Rahway River and Robinson’s Branch meeting tidal waters toward the Arthur Kill, Rahway combines historic single-family residences on deep basements with dense downtown apartments and commercial blocks. From outdoor flood cleanup in Rahway after intense storms to winter pipe bursts inside exterior kitchen walls, rapid emergency water removal in Rahway limits costly structural damage.',
     ],
     housingProfile:
@@ -1034,7 +1034,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Lower-basin terrain receives upstream Rahway River flow alongside Arthur Kill tidal effects, heightening floodwater accumulation and street-drain backup exposure during major rainstorms.',
     coverageNote:
-      'Dispatched south down Routes 1 & 9 and St. George Ave from 505 Elizabeth Ave, Elizabethport. Street-level scheduling for Rahway is confirmed by phone at 908-677-5006.',
+      'Dispatched south down Routes 1 & 9 and St. George Ave from 505 Elizabeth Ave, Elizabethport. Street-level scheduling for Rahway is confirmed by phone at (908) 224-8067.',
     situationsHeading: 'Flooding & burst pipe water issues common in Rahway',
     situationsIntro:
       'Properties near river corridors and older residential blocks experience both ground-level storm inundation and pressurized supply breaks.',
@@ -1096,7 +1096,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       'Whether responding to dirty river runoff or a clean winter pipe burst, each step follows safe triage and measured drying.',
     processSteps: [
       {
-        title: 'Phone assessment at 908-677-5006',
+        title: 'Phone assessment at (908) 224-8067',
         text: 'Describe whether flooding came from heavy outdoor storm water or an indoor burst pipe, how deep water stands, and your Rahway neighborhood.',
       },
       {
@@ -1137,7 +1137,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'My Rahway home near the river took on storm water—what should I do right away?',
         answer:
-          'Put safety around electric panels and gas water heaters first—stay clear of live water. Once safe, photograph the high-water mark on walls and call 908-677-5006 to check availability for flood cleanup and extraction.',
+          'Put safety around electric panels and gas water heaters first—stay clear of live water. Once safe, photograph the high-water mark on walls and call (908) 224-8067 to check availability for flood cleanup and extraction.',
       },
       {
         question: 'Does G&OwaterDamage maintain a physical office inside Rahway?',
@@ -1147,7 +1147,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'When a pipe freezes and bursts in our walls, do you replace the broken copper/PEX pipe?',
         answer:
-          'Pipe repairs require a licensed plumber. Turn off your main house valve, call your plumber to permanently seal the pipe, and call 908-677-5006 so water extraction and wall cavity drying begin promptly.',
+          'Pipe repairs require a licensed plumber. Turn off your main house valve, call your plumber to permanently seal the pipe, and call (908) 224-8067 so water extraction and wall cavity drying begin promptly.',
       },
       {
         question: 'Can wet basement drywall be dried out or must it be cut out after flooding?',
@@ -1157,7 +1157,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     ],
     contactCtaHeading: 'Floodwater or a burst pipe inside your Rahway property?',
     contactCtaText:
-      'Call 908-677-5006 now to confirm coverage for your Rahway address and arrange fast water removal.',
+      'Call (908) 224-8067 now to confirm coverage for your Rahway address and arrange fast water removal.',
     nearbySlugs: [
       'water-damage-restoration-linden-nj',
       'water-damage-restoration-cranford-nj',
@@ -1170,13 +1170,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Union County, NJ',
     title: 'Water Damage Restoration Cranford NJ | G&OwaterDamage',
     description:
-      'Recovery for finished basements, hardwood subfloors, and storm seepage across Cranford, NJ. Confirm dispatch availability by calling 908-677-5006.',
+      'Recovery for finished basements, hardwood subfloors, and storm seepage across Cranford, NJ. Confirm dispatch availability by calling (908) 224-8067.',
     h1: 'Water Damage Restoration in Cranford, NJ',
     heroDescription:
-      'Targeted support for basement water problems, storm-related flooding, and structural drying in Cranford homes. Call 908-677-5006 to check availability.',
+      'Targeted support for basement water problems, storm-related flooding, and structural drying in Cranford homes. Call (908) 224-8067 to check availability.',
     introHeading: 'Basement water problems and storm flooding cleanup in Cranford',
     intro: [
-      'Cranford lies roughly 15 to 20 minutes west of our Elizabethport base at 505 Elizabeth Ave along the Route 28 corridor. Homeowners looking for water damage restoration near Cranford can speak directly with our team at 908-677-5006 to confirm coverage and scheduling when heavy storms or internal leaks hit.',
+      'Cranford lies roughly 15 to 20 minutes west of our Elizabethport base at 505 Elizabeth Ave along the Route 28 corridor. Homeowners looking for water damage restoration near Cranford can speak directly with our team at (908) 224-8067 to confirm coverage and scheduling when heavy storms or internal leaks hit.',
       'Situated inside a natural low-lying basin fed by the winding Rahway River and tributaries such as Nomahegan Brook, Cranford homes frequently face elevated water tables, battery-backup sump limits, and storm-related flooding alongside finished-basement seepage. Prompt flood cleanup in Cranford and controlled dehumidification help protect classic Colonial hardwood floors and finished family basements.',
     ],
     housingProfile:
@@ -1184,7 +1184,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Topographic basin bisected by the Rahway River and upstream tributaries where prolonged rainstorms lift groundwater tables and test basement cove joints and sump discharges.',
     coverageNote:
-      'Dispatched westward from 505 Elizabeth Ave in Elizabethport via Route 28 or the Parkway corridor. Confirm Cranford dispatch windows directly at 908-677-5006.',
+      'Dispatched westward from 505 Elizabeth Ave in Elizabethport via Route 28 or the Parkway corridor. Confirm Cranford dispatch windows directly at (908) 224-8067.',
     situationsHeading: 'Basement & storm water challenges common in Cranford',
     situationsIntro:
       'When heavy river storms or groundwater seepage strike finished Cranford basements, upper hardwood flooring and wall assemblies are put at immediate risk.',
@@ -1247,7 +1247,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     processSteps: [
       {
         title: 'Phone triage of water source & storm level',
-        text: 'Call 908-677-5006 with your Cranford street and describe whether groundwater seeped, storm water flooded, or a pipe broke so we confirm scheduling.',
+        text: 'Call (908) 224-8067 with your Cranford street and describe whether groundwater seeped, storm water flooded, or a pipe broke so we confirm scheduling.',
       },
       {
         title: 'Safety clearance & water-type determination',
@@ -1287,7 +1287,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Can you help clean up and dry a finished Cranford basement after heavy Rahway River storms?',
         answer:
-          'Yes—once electrical/heating safety is verified, call 908-677-5006 with your address and rough water depth so we can confirm dispatch timing and explain immediate steps.',
+          'Yes—once electrical/heating safety is verified, call (908) 224-8067 with your address and rough water depth so we can confirm dispatch timing and explain immediate steps.',
       },
       {
         question: 'Our first-floor oak hardwood started cupping above a damp crawlspace or flooded basement—can drying help?',
@@ -1302,12 +1302,12 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'What if mold started showing behind paneling after a previous Cranford storm?',
         answer:
-          'Call 908-677-5006 and tell us exactly where visible spots appeared. Our crew will advise safely and explain drying or remediation options for your property.',
+          'Call (908) 224-8067 and tell us exactly where visible spots appeared. Our crew will advise safely and explain drying or remediation options for your property.',
       },
     ],
     contactCtaHeading: 'Basement flooding or storm water in Cranford?',
     contactCtaText:
-      'Call 908-677-5006 to speak directly with our local Union County crew about coverage and water cleanup in Cranford.',
+      'Call (908) 224-8067 to speak directly with our local Union County crew about coverage and water cleanup in Cranford.',
     nearbySlugs: [
       'water-damage-restoration-roselle-park-nj',
       'water-damage-restoration-union-nj',
@@ -1320,13 +1320,13 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     countyLabel: 'Essex County, NJ',
     title: 'Water Damage Restoration Newark NJ | G&OwaterDamage',
     description:
-      'Standing water extraction and brick or plaster drying for Newark row houses, multi-family apartments, and shops. Call 908-677-5006 to check availability.',
+      'Standing water extraction and brick or plaster drying for Newark row houses, multi-family apartments, and shops. Call (908) 224-8067 to check availability.',
     h1: 'Water Damage Restoration in Newark, NJ',
     heroDescription:
-      'Serving commercial buildings, multi-unit apartments, and residential row houses in Newark from just across the Elizabethport line. Call 908-677-5006.',
+      'Serving commercial buildings, multi-unit apartments, and residential row houses in Newark from just across the Elizabethport line. Call (908) 224-8067.',
     introHeading: 'Water restoration for Newark commercial buildings, apartments, and homes',
     intro: [
-      'Newark borders our Elizabethport headquarters immediately to the north—placing the South Ward, Weequahic, Dayton, and Ironbound right up Routes 1 & 9 and Frelinghuysen Avenue from 505 Elizabeth Ave. Building owners, landlords, and residents seeking water damage restoration near Newark can call 908-677-5006 directly to confirm ward coverage and crew dispatch.',
+      'Newark borders our Elizabethport headquarters immediately to the north—placing the South Ward, Weequahic, Dayton, and Ironbound right up Routes 1 & 9 and Frelinghuysen Avenue from 505 Elizabeth Ave. Building owners, landlords, and residents seeking water damage restoration near Newark can call (908) 224-8067 directly to confirm ward coverage and crew dispatch.',
       'Unlike lower-density suburban towns, Newark incidents frequently involve stacked brick row houses, three-family triple-deckers, multi-unit apartment buildings sharing vertical plumbing risers, and ground-level commercial storefronts or industrial bays. At the same time, storm surges near Newark Bay and the Passaic estuary can trigger flood cleanup in Newark basements—requiring coordinated water removal and drying across multiple tenants and suites.',
     ],
     housingProfile:
@@ -1334,7 +1334,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     watershedAndDrainage:
       'Impervious dense urban streets and aging combined sewers near Newark Bay and the Passaic River estuary increase ground-floor storefront and basement surge risks when cloudbursts hit high tides.',
     coverageNote:
-      'Directly north of 505 Elizabeth Ave, Elizabethport via Routes 1 & 9 and Frelinghuysen Ave. Coverage for Newark commercial and apartment addresses is confirmed by phone at 908-677-5006.',
+      'Directly north of 505 Elizabeth Ave, Elizabethport via Routes 1 & 9 and Frelinghuysen Ave. Coverage for Newark commercial and apartment addresses is confirmed by phone at (908) 224-8067.',
     situationsHeading: 'Apartment, commercial & residential water issues common in Newark',
     situationsIntro:
       'High-density multi-unit buildings and mixed commercial floors present vertical spread and authorization needs distinct from detached single-family homes.',
@@ -1397,7 +1397,7 @@ export const serviceAreaPages: ServiceAreaPage[] = [
     processSteps: [
       {
         title: 'Phone intake for ward, unit count & building type',
-        text: 'Call 908-677-5006 with your Newark neighborhood, whether the loss involves a home, apartment building, or business, and building keyholder details.',
+        text: 'Call (908) 224-8067 with your Newark neighborhood, whether the loss involves a home, apartment building, or business, and building keyholder details.',
       },
       {
         title: 'Owner sign-off, utility isolation & source check',
@@ -1437,27 +1437,27 @@ export const serviceAreaPages: ServiceAreaPage[] = [
       {
         question: 'Which parts of Newark are closest to G&OwaterDamage’s Elizabethport office?',
         answer:
-          'Newark’s South Ward, Dayton, Weequahic, and the Ironbound sit just across the city line along Routes 1 & 9 and Frelinghuysen Ave. Call 908-677-5006 with any Newark address to confirm coverage.',
+          'Newark’s South Ward, Dayton, Weequahic, and the Ironbound sit just across the city line along Routes 1 & 9 and Frelinghuysen Ave. Call (908) 224-8067 with any Newark address to confirm coverage.',
       },
       {
         question: 'Water leaked from an upstairs apartment into our ceiling—can a tenant call or must the landlord call?',
         answer:
-          'Anyone experiencing the water—tenant, landlord, or property manager—can call 908-677-5006 right away for immediate safety steps, while building owner authorization may be needed before restoration work begins inside affected units.',
+          'Anyone experiencing the water—tenant, landlord, or property manager—can call (908) 224-8067 right away for immediate safety steps, while building owner authorization may be needed before restoration work begins inside affected units.',
       },
       {
         question: 'Can commercial buildings in Newark arrange early-morning or off-hours work?',
         answer:
-          'Scheduling windows depend on building security access and current crew availability. Mention preferred business hours when calling 908-677-5006.',
+          'Scheduling windows depend on building security access and current crew availability. Mention preferred business hours when calling (908) 224-8067.',
       },
       {
         question: 'What if combined storm-sewer water backed up into a garden basement unit?',
         answer:
-          'Keep tenants away from contaminated wastewater, shut down basement HVAC circulation if safe, and call 908-677-5006 first so we can confirm availability for sewage/contaminated cleanup.',
+          'Keep tenants away from contaminated wastewater, shut down basement HVAC circulation if safe, and call (908) 224-8067 first so we can confirm availability for sewage/contaminated cleanup.',
       },
     ],
     contactCtaHeading: 'Water damage in a Newark apartment, storefront, or home?',
     contactCtaText:
-      'Call 908-677-5006 to reach our neighboring Elizabethport crew for Newark availability, extraction, and drying coordination.',
+      'Call (908) 224-8067 to reach our neighboring Elizabethport crew for Newark availability, extraction, and drying coordination.',
     nearbySlugs: [
       'water-damage-restoration-elizabethport-nj',
       'water-damage-restoration-elizabeth-nj',

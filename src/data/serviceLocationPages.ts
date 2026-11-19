@@ -71,12 +71,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'water-damage-restoration',
     title: 'Water Damage Restoration Elizabeth NJ | G&O',
     description:
-      'Water damage repair and emergency restoration in Elizabeth, NJ—assessment, water extraction, structural drying, and repair readiness. Call 908-677-5006.',
+      'Water damage repair and emergency restoration in Elizabeth, NJ—assessment, water extraction, structural drying, and repair readiness. Call (908) 224-8067.',
     h1: 'Water Damage Restoration in Elizabeth, NJ',
     eyebrow: 'Water Damage Repair & Emergency Restoration',
     intro: [
       'Water damage rarely stops where the puddle ends. Within hours of a burst supply line, overflowing appliance, or storm-flooded basement, water wicks upward into drywall, saturates carpet padding, and settles beneath hardwood or tile subflooring where household towels and fans cannot reach.',
-      'Complete water damage repair and emergency restoration in Elizabeth, NJ requires handling the full chain cleanly—stopping or isolating the moisture source, extracting standing water, dehumidifying hidden building cavities with moisture verification, cleaning affected areas, and identifying which materials can be dried versus replaced. Every job starts with a direct phone assessment at 908-677-5006.',
+      'Complete water damage repair and emergency restoration in Elizabeth, NJ requires handling the full chain cleanly—stopping or isolating the moisture source, extracting standing water, dehumidifying hidden building cavities with moisture verification, cleaning affected areas, and identifying which materials can be dried versus replaced. Every job starts with a direct phone assessment at (908) 224-8067.',
     ],
     reviewQuote: {
       author: 'Adam Morrison',
@@ -199,7 +199,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
             'Cleaning of salvaged structural surfaces and honest replacement guidance',
             'Transparent phone discussion of what requires a plumber, roofer, or builder',
           ],
-          note: 'Availability and scheduling windows for Elizabeth and surrounding neighborhoods are confirmed directly when you call 908-677-5006.',
+          note: 'Availability and scheduling windows for Elizabeth and surrounding neighborhoods are confirmed directly when you call (908) 224-8067.',
         },
       },
     ],
@@ -208,7 +208,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'How quickly can you respond for emergency restoration?',
         answer:
-          'Arrival windows depend on your Elizabeth neighborhood and active crew schedule at the time of your call. Call 908-677-5006 right away so our team can give you an honest dispatch window.',
+          'Arrival windows depend on your Elizabeth neighborhood and active crew schedule at the time of your call. Call (908) 224-8067 right away so our team can give you an honest dispatch window.',
       },
       {
         question: 'Should I dry the surface myself first and wait to call?',
@@ -218,7 +218,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'What if mold is already starting to show after a leak?',
         answer:
-          'Call 908-677-5006 and describe where visible growth appears and how long the room stayed damp. Our crew will explain safe precautions (avoiding dry brushing or running box fans) and what remediation or drying steps apply.',
+          'Call (908) 224-8067 and describe where visible growth appears and how long the room stayed damp. Our crew will explain safe precautions (avoiding dry brushing or running box fans) and what remediation or drying steps apply.',
       },
       {
         question: 'Will my insurance cover water damage repair?',
@@ -233,12 +233,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'water-extraction',
     title: 'Water Extraction Elizabeth NJ | G&O',
     description:
-      'Emergency water removal and standing water removal in Elizabeth, NJ. Pumping floodwater from floors, carpets, and basements. Call 908-677-5006.',
+      'Emergency water removal and standing water removal in Elizabeth, NJ. Pumping floodwater from floors, carpets, and basements. Call (908) 224-8067.',
     h1: 'Water Extraction Services in Elizabeth, NJ',
     eyebrow: 'Emergency & Standing Water Removal',
     intro: [
       'Physical water extraction is hundreds of times more efficient than waiting for pooled water to evaporate. Left sitting even a few hours, standing water wicks up baseboard trim, swells laminate seams, saturates subflooring, and turns a localized overflow into a multi-room tear-out.',
-      'G&OwaterDamage provides prompt emergency water removal and standing water removal in Elizabeth, NJ for flooded basements, soaked carpeting, and hard-floor spills. Call 908-677-5006 and tell us the approximate water depth, flooring type, and rooms impacted so we can plan extraction equipment.',
+      'G&OwaterDamage provides prompt emergency water removal and standing water removal in Elizabeth, NJ for flooded basements, soaked carpeting, and hard-floor spills. Call (908) 224-8067 and tell us the approximate water depth, flooring type, and rooms impacted so we can plan extraction equipment.',
     ],
     sections: [
       {
@@ -354,7 +354,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
           'Do not wade barefoot in standing water—hidden debris, slick slabs, and live electricity pose real risks.',
           'Avoid plugging household wet/dry vacuums into wall outlets inside flooded rooms.',
           'Wait before throwing out wet carpet or padding until we discuss salvageability and your insurance photos.',
-          'Call 908-677-5006 right away if drain water smells like sewage so we confirm safe scope first.',
+          'Call (908) 224-8067 right away if drain water smells like sewage so we confirm safe scope first.',
         ],
         panel: {
           heading: 'Water extraction work included',
@@ -372,7 +372,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'How much standing water can be pumped out?',
         answer:
-          'Extraction handles everything from shallow soaked carpets up to inches of standing basement floodwater. Share the room size and rough water depth when calling 908-677-5006.',
+          'Extraction handles everything from shallow soaked carpets up to inches of standing basement floodwater. Share the room size and rough water depth when calling (908) 224-8067.',
       },
       {
         question: 'Can my wet carpet be saved after standing water removal?',
@@ -387,7 +387,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'What if the standing water came from a sewage backup?',
         answer:
-          'Sewage water carries harmful bacteria and requires dedicated biohazard handling rather than clean-water extraction. Call 908-677-5006 first so we can confirm availability for sewage backup cleanup.',
+          'Sewage water carries harmful bacteria and requires dedicated biohazard handling rather than clean-water extraction. Call (908) 224-8067 first so we can confirm availability for sewage backup cleanup.',
       },
     ],
     relatedSlugs: ['structural-drying-elizabeth-nj', 'basement-water-cleanup-elizabeth-nj'],
@@ -397,7 +397,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'structural-drying',
     title: 'Structural Drying Elizabeth NJ | G&O',
     description:
-      'Structural drying services and professional dehumidification in Elizabeth, NJ for wet walls, framing, and subfloors. Call 908-677-5006.',
+      'Structural drying services and professional dehumidification in Elizabeth, NJ for wet walls, framing, and subfloors. Call (908) 224-8067.',
     h1: 'Structural Drying Services in Elizabeth, NJ',
     eyebrow: 'Structural Drying Services & Professional Dehumidification',
     intro: [
@@ -551,12 +551,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'flood-damage-cleanup',
     title: 'Flood Damage Cleanup Elizabeth NJ | G&O',
     description:
-      'Flood water removal and residential flood cleanup in Elizabeth, NJ. Clearing overland storm water, mud, and soaked materials. Call 908-677-5006.',
+      'Flood water removal and residential flood cleanup in Elizabeth, NJ. Clearing overland storm water, mud, and soaked materials. Call (908) 224-8067.',
     h1: 'Flood Damage Cleanup in Elizabeth, NJ',
     eyebrow: 'Flood Water Removal & Residential Flood Cleanup',
     intro: [
       'Flooding from overflowing streets, saturated yards, or backed-up storm basins is far more complex than a clean interior pipe leak. Once stormwater crosses sidewalks, lawns, or driveways into a house, it brings fine silt, soil contaminants, road oils, and organic debris that soak straight into porous lower-level walls and flooring.',
-      'G&OwaterDamage provides flood water removal and residential flood cleanup in Elizabeth and Elizabethport—starting with clear phone guidance on safety, removing floodwater and mud, deciding honestly with you which soaked materials cannot stay, and thoroughly cleaning and drying structural framing before rebuilding. Call 908-677-5006 as soon as it is safe.',
+      'G&OwaterDamage provides flood water removal and residential flood cleanup in Elizabeth and Elizabethport—starting with clear phone guidance on safety, removing floodwater and mud, deciding honestly with you which soaked materials cannot stay, and thoroughly cleaning and drying structural framing before rebuilding. Call (908) 224-8067 as soon as it is safe.',
     ],
     reviewQuote: {
       author: 'Damian Walsh',
@@ -600,7 +600,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
           'Wear waterproof boots, heavy rubber gloves, and protective clothing—overland stormwater carries mud, road runoff, and bacteria.',
           'Photograph the highest water mark on walls, stairs, and appliances before removing water or discarding contents for flood-insurance records.',
           'Keep children, older family members, and pets completely out of muddy flooded rooms until cleanup and drying complete.',
-          'If floodwater smells like sewage or rose from toilet/floor drains, stop and confirm availability by calling 908-677-5006 first.',
+          'If floodwater smells like sewage or rose from toilet/floor drains, stop and confirm availability by calling (908) 224-8067 first.',
         ],
       },
       {
@@ -688,7 +688,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'Can carpet or lower drywall be saved if storm water only came in 2 inches?',
         answer:
-          'Because overland stormwater carries bacteria and fine silt, porous materials like foam carpet pad, soaked carpet, and the bottom band of drywall usually cannot be sanitized safely in place. Call 908-677-5006 before cutting materials so we can walk through your options.',
+          'Because overland stormwater carries bacteria and fine silt, porous materials like foam carpet pad, soaked carpet, and the bottom band of drywall usually cannot be sanitized safely in place. Call (908) 224-8067 before cutting materials so we can walk through your options.',
       },
       {
         question: 'When is it safe to turn our furnace or basement breakers back on?',
@@ -698,7 +698,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'What if mud came in with the storm runoff?',
         answer:
-          'Tell us when calling 908-677-5006. Silt settles in wall track crevices and under floor coverings, so mud clearing and surface washing are factored in before high-velocity drying blowers run.',
+          'Tell us when calling (908) 224-8067. Silt settles in wall track crevices and under floor coverings, so mud clearing and surface washing are factored in before high-velocity drying blowers run.',
       },
     ],
     relatedSlugs: ['water-extraction-elizabeth-nj', 'storm-damage-restoration-elizabeth-nj'],
@@ -708,7 +708,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'basement-water-cleanup',
     title: 'Basement Water Cleanup Elizabeth NJ | G&O',
     description:
-      'Basement flooding cleanup and basement water removal in Elizabeth, NJ for sump pump failures, foundation seepage, and floor drains. Call 908-677-5006.',
+      'Basement flooding cleanup and basement water removal in Elizabeth, NJ for sump pump failures, foundation seepage, and floor drains. Call (908) 224-8067.',
     h1: 'Basement Water Cleanup in Elizabeth, NJ',
     eyebrow: 'Basement Flooding Cleanup & Water Removal',
     intro: [
@@ -834,7 +834,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'What if water backed up out of our basement floor drain?',
         answer:
-          'Floor drain backups may carry contaminated sewer water rather than clean storm runoff. Avoid skin contact, call a drain plumber to clear the blockage, and call 908-677-5006 so we can confirm availability for contaminated cleanup.',
+          'Floor drain backups may carry contaminated sewer water rather than clean storm runoff. Avoid skin contact, call a drain plumber to clear the blockage, and call (908) 224-8067 so we can confirm availability for contaminated cleanup.',
       },
     ],
     relatedSlugs: ['water-extraction-elizabeth-nj', 'structural-drying-elizabeth-nj'],
@@ -844,12 +844,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'water-damage-inspection',
     title: 'Water Damage Inspection Elizabeth NJ | G&O',
     description:
-      'Water damage assessment and moisture inspection in Elizabeth, NJ for ceiling stains, warped floors, and hidden leaks. Call 908-677-5006.',
+      'Water damage assessment and moisture inspection in Elizabeth, NJ for ceiling stains, warped floors, and hidden leaks. Call (908) 224-8067.',
     h1: 'Water Damage Inspection in Elizabeth, NJ',
     eyebrow: 'Water Damage Assessment & Moisture Inspection',
     intro: [
       'Many water losses never flood an entire room at once. Instead, a slow shower-pan drip, pin-hole copper line, or roof flashing gap signals trouble quietly through a discolored ceiling ring, blistering baseboard paint, buckled oak floorboards, or a stubborn musty odor near cabinets.',
-      'Scheduling a water damage assessment and moisture inspection in Elizabeth, NJ gives you real measurements before tearing open undamaged drywall—or covering damp framing with fresh paint. Call 908-677-5006 to describe the signs you noticed.',
+      'Scheduling a water damage assessment and moisture inspection in Elizabeth, NJ gives you real measurements before tearing open undamaged drywall—or covering damp framing with fresh paint. Call (908) 224-8067 to describe the signs you noticed.',
     ],
     sections: [
       {
@@ -905,7 +905,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
         steps: [
           {
             title: 'Phone symptom & leak history intake',
-            text: 'When you call 908-677-5006, we review when stains appeared, past plumbing fixes, and whether moisture returns only during storms or daily fixture use.',
+            text: 'When you call (908) 224-8067, we review when stains appeared, past plumbing fixes, and whether moisture returns only during storms or daily fixture use.',
           },
           {
             title: 'Visual path trace from potential sources',
@@ -976,12 +976,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'burst-pipe-water-damage',
     title: 'Burst Pipe Water Damage Elizabeth NJ | G&O',
     description:
-      'Burst pipe cleanup and water leak damage restoration in Elizabeth, NJ after frozen pipes or ruptured supply lines. Call 908-677-5006.',
+      'Burst pipe cleanup and water leak damage restoration in Elizabeth, NJ after frozen pipes or ruptured supply lines. Call (908) 224-8067.',
     h1: 'Burst Pipe Water Damage Cleanup in Elizabeth, NJ',
     eyebrow: 'Burst Pipe Cleanup & Water Leak Damage Restoration',
     intro: [
       'A residential water supply line holds constant household pressure—so when an exterior-wall pipe splits during a hard freeze or an under-sink braided hose fails, water pours continuously inside stud bays, floor joists, and lower ceilings until the main shutoff closes.',
-      'Even after a licensed plumber stops the leak, gallons of water remain trapped inside ceiling cavities, soaked insulation, cabinet bases, and carpet pads. G&OwaterDamage provides burst pipe cleanup and water leak damage restoration in Elizabeth, NJ to extract water and dry structural framing properly. Call 908-677-5006 once shutoff is underway.',
+      'Even after a licensed plumber stops the leak, gallons of water remain trapped inside ceiling cavities, soaked insulation, cabinet bases, and carpet pads. G&OwaterDamage provides burst pipe cleanup and water leak damage restoration in Elizabeth, NJ to extract water and dry structural framing properly. Call (908) 224-8067 once shutoff is underway.',
     ],
     sections: [
       {
@@ -1030,7 +1030,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
             text: 'Permanent pipe clamping, soldering, or repiping ensures water stays off cleanly while drying begins.',
           },
           {
-            title: 'Photograph rooms & call 908-677-5006',
+            title: 'Photograph rooms & call (908) 224-8067',
             text: 'Capture wide photos for your insurer and call G&OwaterDamage so bulk extraction and wall cavity drying get scheduled promptly.',
           },
         ],
@@ -1084,7 +1084,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'Should I call a plumber first or G&OwaterDamage first when a pipe bursts?',
         answer:
-          'Shut off your main water valve right away, then contact a licensed plumber to repair the broken line and call 908-677-5006 so burst pipe cleanup and structural drying can start promptly once water is stopped.',
+          'Shut off your main water valve right away, then contact a licensed plumber to repair the broken line and call (908) 224-8067 so burst pipe cleanup and structural drying can start promptly once water is stopped.',
       },
       {
         question: 'Do soaked drywall ceilings always have to be torn down after a pipe leak?',
@@ -1109,12 +1109,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'sewage-cleanup',
     title: 'Sewage Cleanup Elizabeth NJ | G&O',
     description:
-      'Sewage backup cleanup and contaminated water cleanup guidance in Elizabeth, NJ. Call 908-677-5006 to confirm availability before handling sewage.',
+      'Sewage backup cleanup and contaminated water cleanup guidance in Elizabeth, NJ. Call (908) 224-8067 to confirm availability before handling sewage.',
     h1: 'Sewage Cleanup Services in Elizabeth, NJ',
     eyebrow: 'Sewage Backup & Contaminated Water Cleanup',
     intro: [
       'A backup from a toilet, basement floor drain, or main sewer stack introduces untreated wastewater carrying pathogens, hazardous bacteria, and gases—classified strictly as contaminated water rather than a clean plumbing leak. Everyday cleaning supplies, shop vacs, and household fans can spread contamination rather than contain it.',
-      'Because sewage backup cleanup and contaminated water cleanup depend on the site conditions and exact scope involved, availability must be confirmed directly by phone. Do not wade into or scrub raw sewage yourself—call 908-677-5006 first so our team can confirm whether we can handle your situation and walk through immediate safety steps.',
+      'Because sewage backup cleanup and contaminated water cleanup depend on the site conditions and exact scope involved, availability must be confirmed directly by phone. Do not wade into or scrub raw sewage yourself—call (908) 224-8067 first so our team can confirm whether we can handle your situation and walk through immediate safety steps.',
     ],
     sections: [
       {
@@ -1152,7 +1152,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
           'NEVER run central HVAC heating/cooling blowers or household box fans near sewage—airflow distributes contaminants through ductwork and hallways.',
           'Do not flush toilets, run washing machines, or drain tubs until a licensed drain plumber verifies the main sewer line is clear.',
           'Avoid trying to mop soaked carpet or porous materials with household bleach alone; bleach loses effectiveness on heavy organic waste and misses porous backing.',
-          'Isolate electrical breakers serving lower rooms from a dry spot if safe, and call 908-677-5006 before disturbing waste.',
+          'Isolate electrical breakers serving lower rooms from a dry spot if safe, and call (908) 224-8067 before disturbing waste.',
         ],
       },
       {
@@ -1164,7 +1164,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
         steps: [
           {
             title: 'Phone availability confirmation & line clearance',
-            text: 'Call 908-677-5006 to confirm sewage availability for your Elizabeth property while arranging a licensed plumber to snake and clear the clogged drain line.',
+            text: 'Call (908) 224-8067 to confirm sewage availability for your Elizabeth property while arranging a licensed plumber to snake and clear the clogged drain line.',
           },
           {
             title: 'Contaminated waste extraction',
@@ -1227,7 +1227,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
             'Immediate safety guidance to protect residents and shut down HVAC circulation',
             'Honest confirmation of whether G&OwaterDamage is available for your sewage cleanup scope',
           ],
-          note: 'Please call 908-677-5006 before entering or touching backup water so we can confirm availability for your property.',
+          note: 'Please call (908) 224-8067 before entering or touching backup water so we can confirm availability for your property.',
         },
       },
     ],
@@ -1236,7 +1236,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'Can I clean a small basement sewer backup myself with bleach and a mop?',
         answer:
-          'Attempting contaminated water cleanup yourself carries serious bacterial and respiratory exposure risks, and porous drywall or carpet cannot be made safe with household bleach. Call 908-677-5006 first to confirm whether our team can assist.',
+          'Attempting contaminated water cleanup yourself carries serious bacterial and respiratory exposure risks, and porous drywall or carpet cannot be made safe with household bleach. Call (908) 224-8067 first to confirm whether our team can assist.',
       },
       {
         question: 'Does G&OwaterDamage snake or clear the clogged main sewer pipe?',
@@ -1251,7 +1251,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'Is greywater from a washing machine backup treated the same as raw toilet sewage?',
         answer:
-          'Drain backups that sit stagnant or carry mixed drain-pipe waste still harbor contaminants and odors. Tell us the exact source when you call 908-677-5006 so we can advise accurately.',
+          'Drain backups that sit stagnant or carry mixed drain-pipe waste still harbor contaminants and odors. Tell us the exact source when you call (908) 224-8067 so we can advise accurately.',
       },
     ],
     relatedSlugs: ['basement-water-cleanup-elizabeth-nj', 'water-damage-restoration-elizabeth-nj'],
@@ -1261,12 +1261,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'storm-damage-restoration',
     title: 'Storm Damage Restoration Elizabeth NJ | G&O',
     description:
-      'Storm water damage cleanup after rainwater intrusion, roof leaks, and wind damage in Elizabeth, NJ. Drying wet attics and ceilings. Call 908-677-5006.',
+      'Storm water damage cleanup after rainwater intrusion, roof leaks, and wind damage in Elizabeth, NJ. Drying wet attics and ceilings. Call (908) 224-8067.',
     h1: 'Storm Damage Restoration in Elizabeth, NJ',
     eyebrow: 'Storm Water Damage Cleanup & Rainwater Intrusion',
     intro: [
       'Coastal nor’easters, heavy windstorms, and rapid summer downpours attack buildings from top to bottom at the exact same moment—peeling roof shingles or valley flashing overhead, driving rainwater intrusion past upper window frames, overflowing clogged gutters, and pushing runoff toward basement entries.',
-      'Once exterior openings are secured against new rain, G&OwaterDamage helps Elizabeth property owners with interior storm water damage cleanup—removing standing indoor water, protecting drenched ceilings, and drying wet attic joists, insulation bays, and wall framing thoroughly. Call 908-677-5006 once safe.',
+      'Once exterior openings are secured against new rain, G&OwaterDamage helps Elizabeth property owners with interior storm water damage cleanup—removing standing indoor water, protecting drenched ceilings, and drying wet attic joists, insulation bays, and wall framing thoroughly. Call (908) 224-8067 once safe.',
     ],
     sections: [
       {
@@ -1314,7 +1314,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
             text: 'Take clear photos of fallen branches, missing shingles visible from ground level, and every stained ceiling or soaked carpet for insurance claims.',
           },
           {
-            title: 'Call 908-677-5006 for interior cleanup & drying',
+            title: 'Call (908) 224-8067 for interior cleanup & drying',
             text: 'Share whether water entered the attic, upper walls, basement, or all three so our crew can discuss interior water removal and drying.',
           },
         ],
@@ -1373,7 +1373,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'Should I wait until a multi-day storm stops completely before calling?',
         answer:
-          'Stay safe indoors during lightning and high winds, then call 908-677-5006 as soon as safe so we can advise on safe drip containment and schedule assessment promptly as weather clears.',
+          'Stay safe indoors during lightning and high winds, then call (908) 224-8067 as soon as safe so we can advise on safe drip containment and schedule assessment promptly as weather clears.',
       },
       {
         question: 'Why does roof rainwater dripping through an attic sometimes smell worse than a pipe leak?',
@@ -1393,12 +1393,12 @@ export const serviceLocationPages: ServiceLocationPage[] = [
     serviceSlug: 'commercial-water-damage-restoration',
     title: 'Commercial Water Damage Restoration Elizabeth NJ | G&O',
     description:
-      'Commercial flood cleanup and business water damage restoration for retail stores, offices, and warehouses in Elizabeth, NJ. Call 908-677-5006.',
+      'Commercial flood cleanup and business water damage restoration for retail stores, offices, and warehouses in Elizabeth, NJ. Call (908) 224-8067.',
     h1: 'Commercial Water Damage Restoration in Elizabeth, NJ',
     eyebrow: 'Commercial Flood Cleanup & Business Restoration',
     intro: [
       'When water enters a storefront, office suite, medical clinic, restaurant, or warehouse in Elizabeth, damage extends far beyond drywall and flooring—every hour wet disrupts daily revenue, threatens inventory and IT hardware, and complicates landlord or multi-tenant coordination.',
-      'G&OwaterDamage delivers commercial flood cleanup and business water damage restoration tailored to commercial layouts, large floor extraction, suspended ceiling leaks, and practical scheduling discussions. Call 908-677-5006 to share your square footage, building access needs, and affected zones.',
+      'G&OwaterDamage delivers commercial flood cleanup and business water damage restoration tailored to commercial layouts, large floor extraction, suspended ceiling leaks, and practical scheduling discussions. Call (908) 224-8067 to share your square footage, building access needs, and affected zones.',
     ],
     sections: [
       {
@@ -1502,7 +1502,7 @@ export const serviceLocationPages: ServiceLocationPage[] = [
       {
         question: 'Can work or equipment checks be arranged outside regular customer hours?',
         answer:
-          'Scheduling windows depend on building access and active crew availability. Call 908-677-5006 to discuss low-traffic, early-morning, or after-hours scheduling for your shop or office.',
+          'Scheduling windows depend on building access and active crew availability. Call (908) 224-8067 to discuss low-traffic, early-morning, or after-hours scheduling for your shop or office.',
       },
       {
         question: 'An overhead HVAC unit leaked across our suspended drop ceiling—can drying stay open for staff?',
