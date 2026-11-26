@@ -74,6 +74,65 @@
     </script>
     <meta property="og:image" content="https://www.gowaterdamage.org/icon-512.png" />
     <meta name="twitter:image" content="https://www.gowaterdamage.org/icon-512.png" />
+    <!-- Layer 2: Aggressive Netlify Badge / Floating Drawer Blocker (CSS) -->
+    <style>
+      iframe[src*="netlify"],
+      iframe[title*="netlify" i],
+      iframe[id*="netlify" i],
+      netlify-drawer,
+      #netlify-badge,
+      .netlify-badge,
+      [class*="netlify-drawer"],
+      [id*="netlify-badge"],
+      [data-netlify-drawer],
+      div[data-netlify-deploy-id] {
+        display: none !important;
+        pointer-events: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        z-index: -999999 !important;
+        position: absolute !important;
+        top: -99999px !important;
+        left: -99999px !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+    </style>
+    <!-- Layer 1: JavaScript MutationObserver Guard -->
+    <script>
+      (function () {
+        function removeNetlifyBadge() {
+          var elements = document.querySelectorAll(
+            'iframe[src*="netlify"], iframe[title*="netlify" i], iframe[id*="netlify" i], netlify-drawer, #netlify-badge, .netlify-badge, [class*="netlify-drawer"], [id*="netlify-badge"], [data-netlify-drawer], div[data-netlify-deploy-id]'
+          );
+          for (var i = 0; i < elements.length; i++) {
+            var el = elements[i];
+            try {
+              el.style.setProperty('display', 'none', 'important');
+              el.style.setProperty('pointer-events', 'none', 'important');
+              el.style.setProperty('opacity', '0', 'important');
+              el.style.setProperty('visibility', 'hidden', 'important');
+              el.style.setProperty('z-index', '-999999', 'important');
+              if (el.parentNode) {
+                el.parentNode.removeChild(el);
+              }
+            } catch (e) {}
+          }
+        }
+        if (typeof MutationObserver !== 'undefined') {
+          new MutationObserver(removeNetlifyBadge).observe(document.documentElement, {
+            childList: true,
+            subtree: true,
+          });
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', removeNetlifyBadge);
+        } else {
+          removeNetlifyBadge();
+        }
+        window.addEventListener('load', removeNetlifyBadge);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
